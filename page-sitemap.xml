@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on January 7, 2026 at 4:09 am by All in One SEO v4.9.2 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[/]]></loc>
+		<lastmod><![CDATA[2025-07-05T14:16:13+00:00]]></lastmod>
+		<changefreq><![CDATA[always]]></changefreq>
+		<priority><![CDATA[1]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/sample-page/]]></loc>
+		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+	<url>
+		<loc><![CDATA[/blog-three-column/]]></loc>
+		<lastmod><![CDATA[2025-08-04T15:32:18+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+	<url>
+		<loc><![CDATA[/blog-two-column/]]></loc>
+		<lastmod><![CDATA[2025-08-04T15:31:17+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+	<url>
+		<loc><![CDATA[/blog-standard/]]></loc>
+		<lastmod><![CDATA[2025-08-04T14:33:32+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-one-v5/]]></loc>
+		<lastmod><![CDATA[2025-07-05T14:15:53+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-one-v4/]]></loc>
+		<lastmod><![CDATA[2025-07-05T14:15:44+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-one-v3/]]></loc>
+		<lastmod><![CDATA[2025-07-05T14:15:23+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-one-v2/]]></loc>
+		<lastmod><![CDATA[2025-07-05T14:15:17+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two-v6/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:34:29+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two-v5/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:34:20+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two-v4/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:33:53+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two-v3/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:33:42+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two-v2/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:33:30+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-two/]]></loc>
+		<lastmod><![CDATA[2025-07-02T05:10:20+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-5.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-6.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-2.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-3.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-4.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-5.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-6.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-7.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-8.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-9.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/partner-10.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/home-version-one/]]></loc>
+		<lastmod><![CDATA[2025-06-26T09:37:18+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo-1.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/works-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-1.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/playground-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/figma.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/loom.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/framer.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/slack.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/monday.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-2.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-3.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-4.jpg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/logo_zm.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Union.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/archin.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Symbol.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/partners/Github_logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+</urlset>

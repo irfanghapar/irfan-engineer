@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on January 7, 2026 at 4:09 am by All in One SEO v4.9.2 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[/elementor-hf/header/]]></loc>
+		<lastmod><![CDATA[2025-08-04T15:51:09+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/elementor-hf/footer/]]></loc>
+		<lastmod><![CDATA[2025-07-05T07:10:51+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/img-bg-2.png]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/elementor-hf/home-version-two-footer/]]></loc>
+		<lastmod><![CDATA[2025-07-02T05:26:02+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/img-bg-2.png]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/elementor-hf/home-version-two-header/]]></loc>
+		<lastmod><![CDATA[2025-07-02T05:10:44+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/icons/dashboard.svg]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/logo/logo.svg]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/elementor-hf/home-version-one-footer/]]></loc>
+		<lastmod><![CDATA[2025-06-29T14:30:32+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/signature-1.png]]>			</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/images/section/img-bg-2.png]]>			</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[/elementor-hf/home-version-one-header/]]></loc>
+		<lastmod><![CDATA[2025-06-29T14:21:03+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://irfan.engineer/wp-content/themes/irfanghapar/icons/dashboard.svg]]>			</image:loc>
+		</image:image>
+	</url>
+</urlset>
