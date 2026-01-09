@@ -1,0 +1,54 @@
+# All URLs for Google Search Console Submission
+# Generated: 2026-01-07
+# Only includes URLs that exist in the repository
+
+# Main Pages
+https://irfan.engineer/
+https://irfan.engineer/blog/
+https://irfan.engineer/blog-standard/
+https://irfan.engineer/simple-design/
+
+# Category Pages
+https://irfan.engineer/category/aiml/
+https://irfan.engineer/category/blog/
+https://irfan.engineer/category/developer-productivity/
+https://irfan.engineer/category/finance/
+https://irfan.engineer/category/fintech/
+
+# Blog Posts (from post-sitemap.xml)
+https://irfan.engineer/hello-world/
+https://irfan.engineer/house-is-highly-sustainable/
+https://irfan.engineer/helvita-website-redesign/
+https://irfan.engineer/anaton-wordpress-theme/
+https://irfan.engineer/portfolio-best/
+https://irfan.engineer/top-portfolio-items/
+
+# Elementor Header/Footer Pages
+https://irfan.engineer/elementor-hf/header/
+https://irfan.engineer/elementor-hf/footer/
+https://irfan.engineer/elementor-hf/home-version-one-header/
+https://irfan.engineer/elementor-hf/home-version-one-footer/
+https://irfan.engineer/elementor-hf/home-version-two-header/
+https://irfan.engineer/elementor-hf/home-version-two-footer/
+
+# Home Version Pages
+https://irfan.engineer/home-version-two-v6/
+
+# Note: The following URLs are in sitemaps but do NOT exist in the repo:
+# - https://irfan.engineer/announcing-if-attachment/ (deleted)
+# - https://irfan.engineer/blog-three-column/ (not in repo)
+# - https://irfan.engineer/blog-two-column/ (not in repo)
+# - https://irfan.engineer/home-version-one/ (not in repo)
+# - https://irfan.engineer/home-version-one-v2/ (not in repo)
+# - https://irfan.engineer/home-version-one-v3/ (not in repo)
+# - https://irfan.engineer/home-version-one-v4/ (not in repo)
+# - https://irfan.engineer/home-version-one-v5/ (not in repo)
+# - https://irfan.engineer/home-version-two/ (not in repo)
+# - https://irfan.engineer/home-version-two-v2/ (not in repo)
+# - https://irfan.engineer/home-version-two-v3/ (not in repo)
+# - https://irfan.engineer/home-version-two-v4/ (not in repo)
+# - https://irfan.engineer/home-version-two-v5/ (not in repo)
+# - https://irfan.engineer/sample-page/ (not in repo)
+# - All tag URLs (tag/analysis/, tag/artificial/, etc.) - no tag pages exist
+# - Category pages: consulting/, firewall/, payment/, security/, uncategorized/ (not in repo)
+
