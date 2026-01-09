@@ -47,11 +47,20 @@
       ]
     },
     {
+      "source": "/404",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdnjs.cloudflare.com/ajax/libs/gsap/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://s3-us-west-2.amazonaws.com;"
+        }
+      ]
+    },
+    {
       "source": "/404/(.*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://s3-us-west-2.amazonaws.com;"
+          "value": "script-src 'self' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdnjs.cloudflare.com/ajax/libs/gsap/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://s3-us-west-2.amazonaws.com;"
         }
       ]
     },
