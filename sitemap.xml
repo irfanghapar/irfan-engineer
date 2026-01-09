@@ -4,23 +4,23 @@
 <?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc><![CDATA[/post-sitemap.xml]]></loc>
+		<loc><![CDATA[https://irfan.engineer/post-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/page-sitemap.xml]]></loc>
+		<loc><![CDATA[https://irfan.engineer/page-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/elementor-hf-sitemap.xml]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2025-08-04T15:51:09+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/category-sitemap.xml]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/post_tag-sitemap.xml]]></loc>
+		<loc><![CDATA[https://irfan.engineer/post_tag-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2024-11-24T15:15:44+00:00]]></lastmod>
 	</sitemap>
 </sitemapindex>

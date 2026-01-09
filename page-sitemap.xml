@@ -8,7 +8,7 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/]]></loc>
 		<lastmod><![CDATA[2025-07-05T14:16:13+00:00]]></lastmod>
 		<changefreq><![CDATA[always]]></changefreq>
 		<priority><![CDATA[1]]></priority>
@@ -110,7 +110,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/sample-page/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/sample-page/]]></loc>
 		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
