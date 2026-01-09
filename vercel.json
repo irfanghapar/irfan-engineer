@@ -107,6 +107,14 @@
     {
       "source": "/robots.txt",
       "destination": "/robots.txt"
+    },
+    {
+      "source": "/404",
+      "destination": "/404/index.html"
+    },
+    {
+      "source": "/404.html",
+      "destination": "/404/index.html"
     }
   ]
 }

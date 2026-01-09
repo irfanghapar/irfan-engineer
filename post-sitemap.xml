@@ -8,12 +8,6 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[https://irfan.engineer/hello-world/]]></loc>
-		<lastmod><![CDATA[2026-01-07T03:48:35+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-	</url>
-	<url>
 		<loc><![CDATA[https://irfan.engineer/announcing-if-attachment/]]></loc>
 		<lastmod><![CDATA[2024-11-24T15:15:44+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
@@ -21,56 +15,6 @@
 		<image:image>
 			<image:loc>
 				<![CDATA[https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdhk7q0nbg6dh1j92oo8t.png]]>			</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc><![CDATA[https://irfan.engineer/house-is-highly-sustainable/]]></loc>
-		<lastmod><![CDATA[2024-11-24T15:15:26+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc>
-				<![CDATA[https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe6b4jlrop79m6mv6oybg.jpg]]>			</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc><![CDATA[https://irfan.engineer/helvita-website-redesign/]]></loc>
-		<lastmod><![CDATA[2024-10-14T14:27:17+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc>
-				<![CDATA[https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp8n3w2v2ncu5ds06aw5v.jpg]]>			</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc><![CDATA[https://irfan.engineer/anaton-wordpress-theme/]]></loc>
-		<lastmod><![CDATA[2021-08-26T11:31:33+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc>
-				<![CDATA[/wp-content/uploads/2021/08/9.jpg]]>			</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc><![CDATA[https://irfan.engineer/portfolio-best/]]></loc>
-		<lastmod><![CDATA[2021-01-20T11:30:38+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc>
-				<![CDATA[/wp-content/uploads/2021/01/3.jpg]]>			</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc><![CDATA[https://irfan.engineer/top-portfolio-items/]]></loc>
-		<lastmod><![CDATA[2021-01-20T11:27:26+00:00]]></lastmod>
-		<changefreq><![CDATA[weekly]]></changefreq>
-		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc>
-				<![CDATA[/wp-content/uploads/2021/01/2.jpg]]>			</image:loc>
 		</image:image>
 	</url>
 </urlset>

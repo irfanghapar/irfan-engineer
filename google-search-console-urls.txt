@@ -5,7 +5,6 @@
 # Main Pages
 https://irfan.engineer/
 https://irfan.engineer/blog/
-https://irfan.engineer/blog-standard/
 https://irfan.engineer/simple-design/
 
 # Category Pages
@@ -14,22 +13,6 @@ https://irfan.engineer/category/blog/
 https://irfan.engineer/category/developer-productivity/
 https://irfan.engineer/category/finance/
 https://irfan.engineer/category/fintech/
-
-# Blog Posts (from post-sitemap.xml)
-https://irfan.engineer/hello-world/
-https://irfan.engineer/house-is-highly-sustainable/
-https://irfan.engineer/helvita-website-redesign/
-https://irfan.engineer/anaton-wordpress-theme/
-https://irfan.engineer/portfolio-best/
-https://irfan.engineer/top-portfolio-items/
-
-# Elementor Header/Footer Pages
-https://irfan.engineer/elementor-hf/header/
-https://irfan.engineer/elementor-hf/footer/
-https://irfan.engineer/elementor-hf/home-version-one-header/
-https://irfan.engineer/elementor-hf/home-version-one-footer/
-https://irfan.engineer/elementor-hf/home-version-two-header/
-https://irfan.engineer/elementor-hf/home-version-two-footer/
 
 # Home Version Pages
 https://irfan.engineer/home-version-two-v6/
