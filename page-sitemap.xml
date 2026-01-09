@@ -116,25 +116,25 @@
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/blog-three-column/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/blog-three-column/]]></loc>
 		<lastmod><![CDATA[2025-08-04T15:32:18+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/blog-two-column/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/blog-two-column/]]></loc>
 		<lastmod><![CDATA[2025-08-04T15:31:17+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/blog-standard/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/blog/]]></loc>
 		<lastmod><![CDATA[2025-08-04T14:33:32+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-one-v5/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-one-v5/]]></loc>
 		<lastmod><![CDATA[2025-07-05T14:15:53+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -236,7 +236,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-one-v4/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-one-v4/]]></loc>
 		<lastmod><![CDATA[2025-07-05T14:15:44+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -338,7 +338,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-one-v3/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-one-v3/]]></loc>
 		<lastmod><![CDATA[2025-07-05T14:15:23+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -440,7 +440,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-one-v2/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-one-v2/]]></loc>
 		<lastmod><![CDATA[2025-07-05T14:15:17+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -542,7 +542,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two-v6/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two-v6/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:34:29+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -672,7 +672,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two-v5/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two-v5/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:34:20+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -802,7 +802,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two-v4/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two-v4/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:33:53+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -932,7 +932,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two-v3/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two-v3/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:33:42+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -1062,7 +1062,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two-v2/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two-v2/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:33:30+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -1192,7 +1192,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-two/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-two/]]></loc>
 		<lastmod><![CDATA[2025-07-02T05:10:20+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -1322,7 +1322,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/home-version-one/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/home-version-one/]]></loc>
 		<lastmod><![CDATA[2025-06-26T09:37:18+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>

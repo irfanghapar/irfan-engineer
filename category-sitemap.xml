@@ -8,55 +8,55 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/category/uncategorized/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/uncategorized/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/blog-standard/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/blog/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/aiml/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/aiml/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/consulting/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/consulting/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/fintech/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/fintech/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/firewall/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/firewall/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/payment/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/payment/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/security/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/security/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/category/developer-productivity/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/category/developer-productivity/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>

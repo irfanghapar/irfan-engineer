@@ -8,7 +8,7 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/elementor-hf/header/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/header/]]></loc>
 		<lastmod><![CDATA[2025-08-04T15:51:09+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -18,7 +18,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/elementor-hf/footer/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/footer/]]></loc>
 		<lastmod><![CDATA[2025-07-05T07:10:51+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -36,7 +36,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/elementor-hf/home-version-two-footer/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/home-version-two-footer/]]></loc>
 		<lastmod><![CDATA[2025-07-02T05:26:02+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -54,7 +54,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/elementor-hf/home-version-two-header/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/home-version-two-header/]]></loc>
 		<lastmod><![CDATA[2025-07-02T05:10:44+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -68,7 +68,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/elementor-hf/home-version-one-footer/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/home-version-one-footer/]]></loc>
 		<lastmod><![CDATA[2025-06-29T14:30:32+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -82,7 +82,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[/elementor-hf/home-version-one-header/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/elementor-hf/home-version-one-header/]]></loc>
 		<lastmod><![CDATA[2025-06-29T14:21:03+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>

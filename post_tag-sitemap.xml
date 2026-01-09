@@ -8,37 +8,37 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[/tag/analysis/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/analysis/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/tag/artificial/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/artificial/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/tag/data/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/data/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/tag/process/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/process/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/tag/software/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/software/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[/tag/store/]]></loc>
+		<loc><![CDATA[https://irfan.engineer/tag/store/]]></loc>
 		<lastmod><![CDATA[1970-01-01T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[monthly]]></changefreq>
 		<priority><![CDATA[0.3]]></priority>
