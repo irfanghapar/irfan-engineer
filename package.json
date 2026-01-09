@@ -1,0 +1,16 @@
+{
+  "name": "irfan-engineer",
+  "version": "1.0.0",
+  "description": "Portfolio Website - Static HTML Site",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "vercel-build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "portfolio",
+    "static-site"
+  ],
+  "author": "irfanghapar",
+  "license": "MIT"
+}
+
