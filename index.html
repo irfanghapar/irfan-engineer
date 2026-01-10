@@ -6,13 +6,13 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="/xmlrpc.php">
 	<title>Irfan Ghapar | Software Engineer, UI UX</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2">
-	<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png?v=2">
-	<link rel="shortcut icon" type="image/png" href="/favicon.png?v=2">
-	<link rel="icon" type="image/svg+xml" href="/wp-content/themes/irfanghapar/icons/favicon.svg?v=2">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon.png?v=2">
-	<meta name="msapplication-TileImage" content="/favicon.png?v=2">
-	<link rel="icon" href="/favicon.png?v=2" type="image/png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=3">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon.png?v=3">
+	<link rel="shortcut icon" type="image/png" href="/favicon.png?v=3">
+	<link rel="icon" type="image/svg+xml" href="/wp-content/themes/irfanghapar/icons/favicon.svg?v=3">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon.png?v=3">
+	<meta name="msapplication-TileImage" content="/favicon.png?v=3">
+	<link rel="icon" href="/favicon.png?v=3" type="image/png">
 
 		<!-- All in One SEO 4.9.2 - aioseo.com -->
 	<meta name="description" content="Irfan Ghapar (irfanghapar) - Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.">
@@ -23,7 +23,7 @@
 		<meta property="og:site_name" content="irfan.engineer">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="Irfan Ghapar | Software Engineer, UI UX">
-		<meta property="og:description" content="Irfan Ghapar (irfanghapar) - Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.">
+		<meta property="og:description" content="Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.">
 		<meta property="og:url" content="https://irfan.engineer/">
 		<meta property="og:image" content="https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png">
 		<meta property="og:image:width" content="1200">
@@ -31,7 +31,7 @@
 		<meta property="og:image:alt" content="Irfan Ghapar - Software Engineer, UI UX">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="Irfan Ghapar | Software Engineer, UI UX">
-		<meta name="twitter:description" content="Irfan Ghapar (irfanghapar) - Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.">
+		<meta name="twitter:description" content="Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.">
 		<meta name="twitter:image" content="https://irfan.engineer/wp-content/themes/irfanghapar/images/avatar/avatar-full.png">
 		<meta name="twitter:image:alt" content="Irfan Ghapar - Software Engineer, UI UX">
 		<script type="application/ld+json" class="aioseo-schema">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "@id": "https://irfan.engineer/#breadcrumblist", "itemListElement": [{"@type": "ListItem", "@id": "#listItem", "position": 1, "name": "Home"}]}, {"@type": "Person", "@id": "https://irfan.engineer/#person", "name": "Irfan Ghapar", "alternateName": "irfanghapar", "url": "https://irfan.engineer/", "jobTitle": "Software Engineer", "description": "Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.", "sameAs": ["https://github.com/irfanghapar", "https://www.instagram.com/irfanghapar/", "https://threads.com/irfanghapar"]}, {"@type": "Organization", "@id": "https://irfan.engineer/#organization", "name": "Irfan Ghapar", "alternateName": "irfanghapar", "url": "https://irfan.engineer/", "logo": "https://irfan.engineer/favicon.png"}, {"@type": "WebPage", "@id": "https://irfan.engineer/#webpage", "url": "https://irfan.engineer/", "name": "Irfan Ghapar | Software Engineer, UI UX", "description": "Irfan Ghapar (irfanghapar) - Award-winning engineer and problem-solver who turns complex challenges into elegant solutions. Multiple hackathon champion passionate about fintech innovation and building tools that just work.", "inLanguage": "en-US", "isPartOf": {"@id": "https://irfan.engineer/#website"}, "breadcrumb": {"@id": "https://irfan.engineer/#breadcrumblist"}, "datePublished": "2025-07-05T14:16:13+00:00", "dateModified": "2025-07-05T14:16:13+00:00"}, {"@type": "WebSite", "@id": "https://irfan.engineer/#website", "url": "https://irfan.engineer/", "name": "irfan.engineer", "inLanguage": "en-US", "publisher": {"@id": "https://irfan.engineer/#organization"}}]}</script>
@@ -298,6 +298,43 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 	.left-sidebar .heading .box-status .dot {
 		width: 7px !important;
 		height: 7px !important;
+	}
+}
+
+/* Fix for Academic Foundation accordion text overflow on mobile */
+@media (max-width: 1024px) {
+	.section-services {
+		overflow: hidden !important;
+	}
+	
+	.section-services .section-services-inner {
+		overflow: hidden !important;
+	}
+	
+	.section-services .services-wrap {
+		overflow: hidden !important;
+	}
+	
+	.section-services .accordion-item {
+		overflow: hidden !important;
+	}
+	
+	.section-services .accordion-item .accordion-head {
+		overflow: hidden !important;
+	}
+	
+	/* Remove the negative margin that causes text overflow on mobile */
+	.section-services .accordion-item.collapsed .accordion-head > .title {
+		margin-left: 0 !important;
+	}
+	
+	/* Reset split-text transforms on mobile collapsed state to prevent overflow */
+	.section-services .accordion-item.collapsed .split-text.effect-right {
+		transform: translateX(0) !important;
+	}
+	
+	.section-services .accordion-item.collapsed .split-text.effect-right .char {
+		transform: translateX(0) !important;
 	}
 }		</style>
 		<style id="theme_options-dynamic-css" title="dynamic-css" class="redux-options-output">body{font-family:Rajdhani;font-weight:400;font-style:normal;font-size:18px;}h1{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:64px;}h2{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:48px;}h3{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:40px;}h4{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:36px;}h5{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:32px;}h6{font-family:Rajdhani;font-weight:500;font-style:normal;font-size:24px;}.sub-heading{font-family:Rajdhani;font-weight:normal;font-style:normal;font-size:20px;}.text-body-1{font-family:Rajdhani;font-weight:normal;font-style:normal;font-size:18px;}.text-body-2{font-family:Rajdhani;font-weight:normal;font-style:normal;font-size:16px;}.text-caption{font-family:Rajdhani;font-weight:normal;font-style:normal;font-size:12px;}</style>

@@ -3132,12 +3132,19 @@ header .mobile-menu {
 
 .section-services {
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 .section-services .section-services-inner {
   padding: 74px 56px 73px 56px;
   border-radius: 24px;
   background-color: #111111;
   box-shadow: 0px 4px 20px 0px rgba(103, 103, 103, 0.2509803922) inset;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .section-services .subtitle {
   margin-bottom: 74px;
@@ -3145,6 +3152,20 @@ header .mobile-menu {
 .section-services .accordion-item {
   padding: 0 0 9px;
   border-bottom: 0;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.section-services .accordion-item .accordion-head {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  clip-path: inset(0);
 }
 .section-services .accordion-item .list-text {
   padding-left: 86px;
@@ -3159,12 +3180,29 @@ header .mobile-menu {
 }
 .section-services .services-wrap {
   margin-bottom: 41px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 .section-services .services-wrap .heading {
   display: flex;
   gap: 24px;
   margin-bottom: 0px;
   margin-bottom: 21px;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  align-items: flex-start;
+}
+.section-services .services-wrap .heading .accordion-head {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 .section-services .services-wrap .heading .icon {
   display: flex;
@@ -3181,6 +3219,7 @@ header .mobile-menu {
   background-size: cover;
   opacity: 1;
   visibility: visible;
+  flex-shrink: 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -3190,14 +3229,87 @@ header .mobile-menu {
 .section-services .services-wrap .heading .title {
   display: flex;
   gap: 7px;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.section-services .services-wrap .heading .title .split-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  contain: layout style;
+  padding-left: 0;
+  margin-left: 0;
+  left: 0;
+}
+.section-services .services-wrap .heading .title .split-text.effect-right {
+  overflow: hidden;
+  transform: translateX(0);
+  padding-left: 0;
+  margin-left: 0;
+}
+.section-services .services-wrap .heading .title .split-text.effect-right * {
+  transform-origin: left center;
+}
+.section-services .services-wrap .heading .title .split-text * {
+  display: inline;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+.section-services .services-wrap .heading .title .split-text .word,
+.section-services .services-wrap .heading .title .split-text .split-line {
+  display: inline-block;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.section-services .services-wrap .heading .title .split-text .word *,
+.section-services .services-wrap .heading .title .split-text .split-line * {
+  display: inline;
+  max-width: 100%;
+  white-space: normal;
+}
+.section-services .services-wrap .heading .title .split-text .word-wrapper,
+.section-services .services-wrap .heading .title .split-text .char-wrapper {
+  display: inline;
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.section-services .services-wrap .heading .title .split-text {
+  clip-path: inset(0);
+  will-change: auto;
+  isolation: isolate;
+}
+.section-services .services-wrap .heading .title .split-text .word,
+.section-services .services-wrap .heading .title .split-text .word-wrapper {
+  display: inline-block;
+  vertical-align: baseline;
+}
 .section-services .services-wrap .heading .title span {
   line-height: 42px;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .section-services .services-wrap .list-text {
   display: flex;
@@ -4150,6 +4262,22 @@ header .mobile-menu {
   }
 }
 @media (max-width: 1150px) {
+  .section-services .services-wrap .heading .title {
+    flex-wrap: wrap;
+  }
+  .section-services .services-wrap .heading .title .split-text {
+    min-width: 0;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+  .experiences-wrap .item .job-title {
+    flex-wrap: wrap;
+  }
+  .experiences-wrap .item .job-title .time-line {
+    white-space: normal;
+  }
   .blog-item.style-2 .content {
     padding: 16px;
   }
@@ -4232,6 +4360,11 @@ header .mobile-menu {
   }
   .section-services .services-wrap .heading {
     margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
   }
   .section-services .services-wrap .heading .icon {
     margin-top: 8px;
@@ -4239,13 +4372,38 @@ header .mobile-menu {
     height: 50px;
     border-radius: 6px;
     font-size: 20px;
+    flex-shrink: 0;
+  }
+  .section-services .services-wrap .heading .title {
+    flex-wrap: wrap;
+    gap: 8px;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title .split-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
   }
   .section-services .services-wrap .list-text {
     margin-bottom: 10px;
-    padding-left: 74px;
+    padding-left: 66px;
   }
   .section-services .accordion-item.collapsed .accordion-head > .title {
-    margin-left: -74px;
+    margin-left: -66px;
+  }
+  .experiences-wrap .item .job-title {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .experiences-wrap .item .job-title .time-line {
+    white-space: normal;
+    word-break: break-word;
   }
   .wrap-section {
     padding-left: 15px;
@@ -4433,10 +4591,80 @@ header .mobile-menu {
   .section-services .section-services-inner {
     padding: 30px 15px;
   }
+  .section-services .services-wrap .heading {
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 0;
+    flex-shrink: 0;
+  }
   .section-services .services-wrap .heading .title {
-    font-size: 32px !important;
-    line-height: 40px !important;
-    letter-spacing: -1px !important;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.5px !important;
+    flex-wrap: wrap;
+    gap: 8px;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title .split-text {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title span {
+    flex-shrink: 0;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+  }
+  .section-services .services-wrap .list-text {
+    padding-left: 52px !important;
+    margin-top: 8px;
+  }
+  .section-services .accordion-item.collapsed .accordion-head > .title {
+    margin-left: -52px !important;
+  }
+  .section-services .more-infor {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  .section-services .more-infor .worldwide {
+    width: 100%;
+  }
+  .section-services .more-infor a {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .experiences-wrap .item .job-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .experiences-wrap .item .job-title .title {
+    width: 100%;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .experiences-wrap .item .job-title .time-line {
+    width: 100%;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    white-space: normal;
+    word-break: break-word;
   }
   .section-about .heading {
     flex-direction: column;
@@ -4515,10 +4743,86 @@ header .mobile-menu {
     bottom: 30px;
     font-size: 25px;
   }
+  .section-services .section-services-inner {
+    padding: 24px 12px;
+  }
+  .section-services .services-wrap .heading .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  .section-services .services-wrap .heading .title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title .split-text {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .list-text {
+    padding-left: 48px !important;
+  }
+  .section-services .accordion-item.collapsed .accordion-head > .title {
+    margin-left: -48px !important;
+  }
+  .experiences-wrap .item .job-title .title {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .experiences-wrap .item .job-title .time-line {
+    font-size: 13px !important;
+    line-height: 18px !important;
+  }
 }
 @media (max-width: 424px) {
   .header .theme-btn {
     padding: 11px 43px 10px 43px;
+  }
+  .section-services .section-services-inner {
+    padding: 20px 10px;
+  }
+  .section-services .services-wrap .heading .icon {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+  .section-services .services-wrap .heading .title {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title .split-text {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .section-services .services-wrap .heading .title span {
+    font-size: 12px !important;
+  }
+  .section-services .services-wrap .list-text {
+    padding-left: 42px !important;
+  }
+  .section-services .accordion-item.collapsed .accordion-head > .title {
+    margin-left: -42px !important;
+  }
+  .section-services .services-wrap .list-text .text {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding-left: 24px;
+  }
+  .experiences-wrap .item .job-title .title {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+  .experiences-wrap .item .job-title .time-line {
+    font-size: 12px !important;
+    line-height: 16px !important;
   }
 }
 
