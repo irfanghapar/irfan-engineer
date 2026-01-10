@@ -17,4 +17,14 @@
 				<![CDATA[https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdhk7q0nbg6dh1j92oo8t.png]]>			</image:loc>
 		</image:image>
 	</url>
+	<url>
+		<loc><![CDATA[https://irfan.engineer/simple-design/]]></loc>
+		<lastmod><![CDATA[2026-01-09T00:00:00+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+		<image:image>
+			<image:loc>
+				<![CDATA[https://miro.medium.com/v2/resize:fit:1100/format:webp/1*C8RVDKs_uZrVUdgpsF6Fmw.png]]>			</image:loc>
+		</image:image>
+	</url>
 </urlset>
