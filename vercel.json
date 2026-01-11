@@ -8,33 +8,6 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/404/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' data: blob:; style-src * 'unsafe-inline' data: blob:; img-src * data: blob:; font-src * data: blob:; connect-src * data: blob:; frame-ancestors *;"
-        }
-      ]
-    },
-    {
-      "source": "/404",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' data: blob:; style-src * 'unsafe-inline' data: blob:; img-src * data: blob:; font-src * data: blob:; connect-src * data: blob:; frame-ancestors *;"
-        }
-      ]
-    },
-    {
-      "source": "/404/index.html",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' data: blob:; style-src * 'unsafe-inline' data: blob:; img-src * data: blob:; font-src * data: blob:; connect-src * data: blob:; frame-ancestors *;"
-        }
-      ]
-    },
-    {
       "source": "/sitemap.xml",
       "headers": [
         {
@@ -146,14 +119,6 @@
     {
       "source": "/robots.txt",
       "destination": "/robots.txt"
-    },
-    {
-      "source": "/404",
-      "destination": "/404/index.html"
-    },
-    {
-      "source": "/404.html",
-      "destination": "/404/index.html"
     }
   ]
 }

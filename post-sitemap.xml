@@ -8,7 +8,7 @@
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[https://irfan.engineer/announcing-if-attachment/]]></loc>
+		<loc><![CDATA[https://www.irfan.engineer/announcing-if-attachment/]]></loc>
 		<lastmod><![CDATA[2024-11-24T15:15:44+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
@@ -18,7 +18,7 @@
 		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[https://irfan.engineer/simple-design/]]></loc>
+		<loc><![CDATA[https://www.irfan.engineer/simple-design/]]></loc>
 		<lastmod><![CDATA[2026-01-09T00:00:00+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
