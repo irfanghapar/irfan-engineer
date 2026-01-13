@@ -2887,6 +2887,14 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 	const loader = document.getElementById('greeting-loader');
 	const body = document.body;
 	
+	// Detect page reload (including hard refresh Cmd+Shift+R)
+	// On any reload, clear the animation flag to show animation again
+	const navigation = performance.getEntriesByType('navigation')[0];
+	if (navigation && navigation.type === 'reload') {
+		// Clear the flag on reload to ensure animation shows on hard refresh
+		localStorage.removeItem('greeting-animation-shown');
+	}
+	
 	// Check if animation has already been shown
 	const hasSeenAnimation = localStorage.getItem('greeting-animation-shown');
 	
