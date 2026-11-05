@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ain, Friday at 4</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Friday, 4pm. Tickets are booked.">
+<meta property="og:title" content="Ain, I’ve got a plan.">
+<meta property="og:description" content="Friday, 4pm. Tickets are booked. You just need to be ready.">
+<meta property="og:image" content="https://irfan.engineer/ain/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://irfan.engineer/ain">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#071B2F">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#071B2F; --ink:#EAF2F6; --muted:rgba(234,242,246,.62);
+    --accent:#8FE3F4; --accent-ink:#06202E;
+    --paper:#F6F0E4; --paper-ink:#1B2531; --paper-muted:#5B6774; --band:#1DB3E7; --stamp:#1A7F9E;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0; min-height:100vh;
+    font-family:"Newsreader", Georgia, "Times New Roman", serif;
+    font-size:1.125rem; line-height:1.5; font-weight:400;
+    background:var(--bg); color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  #sea{ position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:0; }
+  main{ position:relative; z-index:1; max-width:34rem; margin:0 auto; padding:calc(env(safe-area-inset-top) + 13vh) 1.5rem 5rem; }
+  p{ margin:0; }
+  h2{ font-size:2rem; font-weight:500; line-height:1.1; letter-spacing:-.01em; margin:0 0 .35rem; }
+
+  /* opening */
+  .salute{ font-size:clamp(2.6rem, 10vw, 3.6rem); font-style:italic; line-height:1; margin:0 0 1.5rem; letter-spacing:-.01em; }
+
+  /* the ticket */
+  .ticket{ perspective:1400px; cursor:pointer; -webkit-tap-highlight-color:transparent; outline:none; transition:transform .6s ease; }
+  .ticket:focus-visible .ticket-inner{ outline:2px solid var(--accent); outline-offset:6px; }
+  .ticket-inner{ display:grid; transform-style:preserve-3d; transition:transform .85s cubic-bezier(.2,.75,.2,1); border-radius:14px; }
+  .ticket.flipped .ticket-inner{ transform:rotateY(180deg); }
+  .face{
+    grid-area:1/1; position:relative; overflow:hidden;
+    backface-visibility:hidden; -webkit-backface-visibility:hidden;
+    background:var(--paper); color:var(--paper-ink); border-radius:14px;
+    font-family:"Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+    box-shadow:0 40px 60px -30px rgba(0,0,0,.75), 0 12px 24px -14px rgba(0,0,0,.6);
+  }
+  .face.back{ transform:rotateY(180deg); }
+  .face::before,.face::after{ content:""; position:absolute; right:calc(5.2rem - 11px); width:22px; height:22px; border-radius:50%; background:var(--bg); z-index:2; }
+  .face::before{ top:-11px; } .face::after{ bottom:-11px; }
+  .band{ background:var(--band); color:#fff; font-weight:700; font-size:.95rem; letter-spacing:.14em; padding:.6rem 1.1rem; }
+  .tbody{ display:grid; grid-template-columns:1fr 5.2rem; }
+  .tmain{ padding:1rem 1.1rem 1.1rem; display:flex; flex-direction:column; }
+  .kicker{ font-weight:600; font-size:.8rem; letter-spacing:.12em; color:var(--paper-muted); }
+  .venue{ font-weight:700; font-size:2rem; line-height:1; margin:.3rem 0 .15rem; }
+  .sub{ font-weight:500; font-size:1rem; color:var(--paper-muted); }
+  dl{ margin:1rem 0 1rem; display:grid; grid-template-columns:auto 1fr; gap:.25rem .9rem; font-size:1.05rem; line-height:1.25; }
+  dt{ font-weight:500; color:var(--paper-muted); } dd{ margin:0; font-weight:600; }
+  .stamp{
+    width:max-content; margin:1rem 0 0 auto; margin-top:auto; padding-top:0; transform:rotate(-7deg);
+    border:2.5px solid var(--stamp); color:var(--stamp); border-radius:6px; padding:.3rem .6rem .35rem;
+    font-weight:700; font-size:1rem; letter-spacing:.12em; line-height:1; text-align:center; opacity:.9; mix-blend-mode:multiply;
+    box-shadow:inset 0 0 0 1.5px var(--paper), inset 0 0 0 2.5px var(--stamp);
+  }
+  .stamp small{ display:block; font-size:.62rem; letter-spacing:.14em; margin-top:.25rem; font-weight:600; }
+  .stub{ position:relative; border-left:2px dashed rgba(27,37,49,.35); display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:1.1rem .5rem; }
+  .bars{ width:2.1rem; height:3.6rem; background:repeating-linear-gradient(0deg, var(--paper-ink) 0 2px, transparent 2px 4px, var(--paper-ink) 4px 5px, transparent 5px 9px, var(--paper-ink) 9px 12px, transparent 12px 14px, var(--paper-ink) 14px 15px, transparent 15px 18px); }
+  .admit{ writing-mode:vertical-rl; transform:rotate(180deg); font-weight:700; font-size:1.35rem; letter-spacing:.14em; }
+  .face.back::before,.face.back::after{ display:none; }
+  .back-body{ padding:1rem 1.1rem 1.1rem; }
+  .qrs{ display:grid; grid-template-columns:1fr 1fr; gap:.8rem; }
+  .qr{ margin:0; text-align:center; }
+  .qr img{ display:block; width:100%; max-width:9.5rem; height:auto; margin:0 auto; border-radius:6px; background:#fff; }
+  .qr figcaption{ margin-top:.45rem; font-weight:700; font-size:1.1rem; letter-spacing:.04em; line-height:1.1; }
+  .qr small{ display:block; font-weight:500; font-size:.74rem; letter-spacing:.08em; color:var(--paper-muted); margin-top:.2rem; }
+  .terms{ margin:1rem 0 0; padding:0 0 0 1.1rem; font-weight:500; font-size:1rem; line-height:1.25; }
+  .terms li{ margin:0 0 .35rem; }
+  .terms li:last-child{ margin:0; }
+  .hint{ margin:1rem 0 0; font-size:.95rem; color:var(--muted); font-style:italic; transition:opacity .6s ease; }
+  .hint.gone{ opacity:0; }
+
+  /* lede */
+  .lede{ margin-top:3rem; }
+  .lede p:first-child{ font-size:1.42rem; line-height:1.35; margin-bottom:.5rem; }
+  .count{ font-style:italic; color:var(--muted); font-size:1.15rem; }
+
+  /* the plan */
+  .plan{ margin-top:4.5rem; }
+  .plan .sub{ color:var(--muted); font-style:italic; font-family:inherit; font-size:inherit; margin:0 0 1.8rem; }
+  .stops{ list-style:none; margin:0; padding:0 0 0 1.7rem; position:relative; --p:0; }
+  .stops::before,.stops::after{ content:""; position:absolute; left:4px; top:.7rem; width:2px; border-radius:2px; }
+  .stops::before{ bottom:.7rem; background:color-mix(in srgb, var(--ink) 16%, transparent); }
+  .stops::after{ height:calc(var(--p) * 100%); max-height:calc(100% - 1.4rem); background:var(--accent); transition:height .12s linear; }
+  .stop{ position:relative; padding:0 0 2rem; }
+  .stop:last-child{ padding-bottom:0; }
+  .stop::before{ content:""; position:absolute; left:-1.7rem; top:.55rem; width:10px; height:10px; border-radius:50%; background:var(--bg); border:2px solid color-mix(in srgb, var(--ink) 32%, transparent); transition:background-color .45s ease, border-color .45s ease; }
+  .stop.lit::before{ background:var(--accent); border-color:var(--accent); }
+  .when{ display:block; font-size:.98rem; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .stop h3{ font-size:1.45rem; font-weight:500; line-height:1.15; margin:0 0 .25rem; }
+  .stop p{ color:var(--muted); font-size:1.08rem; }
+
+  /* dinner */
+  .dinner{ margin-top:4.5rem; }
+  .dinner h2{ font-size:1.9rem; }
+  .dinner > p{ margin-bottom:1rem; }
+  .picks{ display:flex; flex-wrap:wrap; gap:.35rem .5rem; }
+  .pick{
+    font:inherit; font-size:1.2rem; background:none; border:0; color:var(--ink);
+    padding:.15em .45em; border-radius:6px; cursor:pointer; position:relative;
+    -webkit-tap-highlight-color:transparent; transition:background-color .25s ease, color .25s ease;
+  }
+  .pick::after{ content:""; position:absolute; left:.45em; right:.45em; bottom:.1em; height:2px; background:var(--accent); opacity:.9; transition:opacity .25s ease; }
+  .pick.on{ background:var(--accent); color:var(--accent-ink); }
+  .pick.on::after{ opacity:0; }
+  .noted{ min-height:1.6em; margin-top:.9rem; font-style:italic; color:var(--muted); }
+
+  /* small print */
+  .fine{ margin-top:3.5rem; color:var(--muted); font-size:1.08rem; }
+
+  /* rsvp */
+  .rsvp-wrap{ margin-top:3rem; }
+  .rsvp{
+    display:grid; width:100%; padding:1.05rem 1.2rem; font:inherit; font-size:1.3rem; font-weight:500; line-height:1.2;
+    background:var(--accent); color:var(--accent-ink); border:1.5px solid var(--accent); border-radius:999px; cursor:pointer;
+    transition:background-color .5s ease, color .5s ease, transform .15s ease; -webkit-tap-highlight-color:transparent;
+  }
+  .rsvp:active{ transform:scale(.985); }
+  .rsvp span{ grid-area:1/1; transition:opacity .4s ease, transform .4s ease; }
+  .rsvp .b{ opacity:0; transform:translateY(6px); }
+  .rsvp.done{ background:transparent; color:var(--ink); cursor:default; }
+  .rsvp.done .a{ opacity:0; transform:translateY(-6px); }
+  .rsvp.done .b{ opacity:1; transform:none; }
+  .wa{ display:inline-block; margin-top:1rem; color:var(--muted); font-style:italic; text-decoration:underline; text-underline-offset:.22em; text-decoration-color:var(--accent); }
+  .wa[hidden]{ display:none; }
+
+  footer{ margin-top:4rem; }
+  .ps{ font-style:italic; color:var(--muted); margin-bottom:1.6rem; }
+  .sign{ font-style:italic; font-size:1.7rem; }
+
+  button:focus-visible, a:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
+
+  @media (min-width:600px){
+    main{ padding-top:16vh; }
+    .venue{ font-size:2.2rem; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{ transition-duration:.01ms !important; }
+    #sea{ display:none; }
+  }
+</style>
+</head>
+<body>
+<canvas id="sea" aria-hidden="true"></canvas>
+<main>
+  <p class="salute">To Ain,</p>
+
+  <section>
+    <div class="ticket" id="ticket" role="button" tabindex="0" aria-pressed="false" aria-label="Admission ticket. Tap to flip.">
+      <div class="ticket-inner">
+        <div class="face front">
+          <div class="band">YOUR FRIDAY</div>
+          <div class="tbody">
+            <div class="tmain">
+              <div class="kicker">ADMISSION TICKET</div>
+              <div class="venue">Aquaria KLCC</div>
+              <div class="sub">Kuala Lumpur, Malaysia</div>
+              <dl>
+                <dt>Ticket</dt><dd>MyKad Adult (Weekdays)</dd>
+                <dt>Quantity</dt><dd>2</dd>
+                <dt>Date</dt><dd>Friday, 6 November</dd>
+              </dl>
+              <div class="stamp">CONFIRMED<small>05 NOV 2026</small></div>
+            </div>
+            <div class="stub">
+              <div class="bars"></div>
+              <div class="admit">ADMIT TWO</div>
+            </div>
+          </div>
+        </div>
+        <div class="face back">
+          <div class="band">SCAN AT THE GATE</div>
+          <div class="back-body">
+            <div class="qrs">
+              <figure class="qr">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAFoCAAAAABfjj4JAAADz0lEQVR42u3dQY6jMBBAUdeo73/l6u0sUAN2FRDy/nKUTEdPyFLFxEQOXdE/BKBBCzRo0AINWqBBgxZo0AINGrRAgxZo0KAFGrRAgwYt0KAFGjRogQYt0KBBCzRogQYNWqBBCzRo0Grt5+Tro+5P5+Z/mof/6on3N39+V7SlA7RAgxZo0KAFGrRAj0/9rmN61h/l3zXE2ie5+PO7oi0doAUaNGgEoEEL9BsnwxPjUpbNe9kxL0bLEOmKtnSAFmjQAg0atECDVvkIXlkev+d88z2bL01XtKVDoEELNGjQAg1anzMZRtPmqCva0iHQoAUaNGiBBi3QLxjBs+X9MXVK2B2f3xVt6QAt0KAFGjRogf7WybDueKRYvG137qXhirZ0CDRogQYNWqBBC/SDofOBd0/f86Gz+buOfKBvFp4yZumwRgs0aNACDVqgQQ+74Ivj2s7hUXF8sivcBZ/5UJ6ibOkQaNCgBRq0QIM2GRZuj/43Q2WUbbnG5ogWV93f3bw5G6ufJOtvBI/Kn0hvbu7G+uaupcMaDVqgQYNGABq0QEfHNBjPPj866qbZ1R3bqUOpY+cfbc5aOkALNGiBBg1aoMfX37abLU8G+vv9cfy24d0TsWLn09U+vfbDrujseGlc8WthS4c1GrRAgwaNADRogR4PPdW45pezeXyKOjHNHr9tNrq3wW3OWjoEGjRogQYt0KBB6/5fnR45xmr5EU5T03Q2b9IbwS0doAUatECDBi3Q4zvvj96cjLbPJIrFW433hrjcmSyj7InBbtsdT35wFGhrNGiBBi3QoEEL9Ps3Z+P4k4FWz6k6seOaa58/hmONx8N+Aw3aGg1aoEELNGjQetpkeOKZrbl4LHEunn8UHbPL9Izoir5oxxa0NRq0QIMGjQA0aIF+9y9nLxyyTmzOxsyJWm3bh65oSwdogQYNGgFo0AI9XvjL2dFy42ZO7APn1LHGZY87ckVbOkALNGiBBg1aoEEL9HjvU5RH2bcGc49wWv3Q6Yq2dAg0aNACDVqgQZsMO+5vzrL3z700modYV7SlA7RAgxZo0KAFGrSuGcFH4S3psXio9Or50+GKtnQINGjQAg1aoEGbDMe9h1cdP3wqjr+/7mbk8BNlS4dAgwYt0KAFGjRogR6v/64jbzm0O1v+UniKsqVDoEGDFmjQAg3aZHjDmd059b+ujmtT++V2wS0dAg0atECDFmjQoPXJT1F2RQs0aIEGDVqgQQs0aNACDVqgQYMWaNACDRq0QIMWaNCgBRq0QIMGLdCgBRo0aIEGLdCgQQs0aIEG/eJ+AVGGkvKN2s/lAAAAAElFTkSuQmCC" alt="Entry QR code, ticket P4A53J20251322" width="360" height="360">
+                <figcaption>Ain<small>P4A53J20251322</small></figcaption>
+              </figure>
+              <figure class="qr">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAFoCAAAAABfjj4JAAADiklEQVR42u3dYY6cMAyAUbva+1/ZvQDSBCcBZnjfz6rTpU9RJC9DyApd0T8EoEELNGjQAg1aoEGDFmjQAg0atECDFmjQoAUatECDBi3QoAUaNGiBBi3QoEELNGiBBg1aoEELNGjQ2trfyb+f6350Hf6jh39a4xdVN1y/FW3rAC3QoAUaNGiBBq31I3h7BJ0agfPoh+bclVx5/Va0rQO0QIMWaNCgBfpHJ8MT41ItGwI//qOdeTG3DJFWtK0DtECDFmjQoAUatEDHl/6uY2UVw99ZP/xM54vsVrStQ6BBgxZo0AIN2mT4pHJ0Rlz5tLEVbesQaNCgBRq0QIMGre8YwWvh53N4xK5lw3hZ0bYOgQYNWqBBCzRok2Fceo7T4PnP2RoCx/9qWtG2DoEGLdCgQQs0aIF+8Ah+4TOoFXM3d+vm67eiQYMWaNACDRq0QH9JWYtvznZurtaWlwjluju+Xu5r6xBo0KAFGrRAgwYt0PH7v+uIZe+qWvmTcvL86S0vbLaibR2gBRq0QIMGLdDxpkeUa+7W9PTnxy+1Jv/T7oLbOkALNGiBBg1aoEFr583Z3PFF7e2nhNWy28hGcFuHQIMGLdCgBRp0OLyqNSSeuDmajXEzxz8/e9FWtK1DoEGDFmjQAg0atO58ue/sfdpq3TLN6466Liva1iHQoEELNGiBBm0y7Dz5mq3BqxrnP8+Oe9m6D+1ru7YO0AINWqBBgxZo0AIdr/oi+vhd7NmvfPd+V5GXvlrZirZ1gBZo0KARgAYt0PGDh1edOP/5xOt+av/TwnHHl6ataFsHaIEGDRoBaNACDdoI/oSLaB0IVp3zp2dv7nq5r61DoEGDFmjQAg06PKIcjzkRKjsX+HFcLG8WsnUINGjQAg1aoEGD1tPOj65lc3NF5yHXHP98XPqQrBVt6wAt0KAFGjRogX7hm4VycojM1vnRJz6fW4ZYK9rWAVqgQQs0aNACDVqg46VvUY7OW5S3fP7jIWRpRds6BBo0aIEGLdCgTYbxlMOrepNdTc54HlG2dQg0aNACDVqgQYPWg0fwPc/9Ljy/uTqnjDk/2tYh0KBBCzRogQZtMozLjpKuyZ8/Oy7m5MuNrWhbB2iBBi3QoEELNGh9yct9rWiBBi3QoEELNGiBBg1aoEELNGjQAg1aoEGDFmjQAg0atECDFmjQoAUatECDBi3QoAUaNGiBBi3QoH+4/6p2hOuewiUMAAAAAElFTkSuQmCC" alt="Entry QR code, ticket FWCORJ20252629" width="360" height="360">
+                <figcaption>Irfan<small>FWCORJ20252629</small></figcaption>
+              </figure>
+            </div>
+            <ol class="terms">
+              <li>Non-refundable. So technically, you have to come.</li>
+              <li>Valid for one afternoon of fish, one coffee, and one proper conversation.</li>
+              <li>Booked on 5 November. I was not going to wing this.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="hint" id="hint">Tap the ticket.</p>
+  </section>
+
+  <section class="lede">
+    <p>Tickets are booked. Coffee’s picked. You just need to be ready at 4.</p>
+    <p class="count" id="count">That’s tomorrow.</p>
+  </section>
+
+  <section class="plan">
+    <h2>The plan</h2>
+    <p class="sub">Loosely. We can go off-script.</p>
+    <ol class="stops">
+      <li class="stop">
+        <span class="when">4:00</span>
+        <h3>I pick you up.</h3>
+        <p>I’ll text when I’m outside. No rush.</p>
+      </li>
+      <li class="stop">
+        <span class="when">Around 4:45</span>
+        <h3>Aquaria KLCC.</h3>
+        <p>A 90-metre tunnel with a travelator. Sharks and sea turtles go over your head. You’ll have a favourite by the end, and I’m going to ask.</p>
+      </li>
+      <li class="stop">
+        <span class="when">Around 6:15</span>
+        <h3>Suria KLCC.</h3>
+        <p>A walk. Nothing to buy, nowhere to be.</p>
+      </li>
+      <li class="stop">
+        <span class="when">Around 7</span>
+        <h3>The LINC.</h3>
+        <p>Coffee, the good kind. Then we actually talk.</p>
+      </li>
+      <li class="stop">
+        <span class="when">Later</span>
+        <h3>Your call.</h3>
+        <p>Dinner if we’re hungry. Somewhere else if we’re not done talking. Home if you’ve had enough of me.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="dinner">
+    <h2>One thing I didn’t plan.</h2>
+    <p>Dinner. Pick one and I’ll find somewhere good.</p>
+    <div class="picks" role="group" aria-label="Dinner">
+      <button class="pick" type="button" aria-pressed="false">Japanese</button>
+      <button class="pick" type="button" aria-pressed="false">Western</button>
+      <button class="pick" type="button" aria-pressed="false">Something local</button>
+      <button class="pick" type="button" aria-pressed="false">Surprise me</button>
+    </div>
+    <p class="noted" id="noted" aria-live="polite"></p>
+  </section>
+
+  <section class="fine">
+    <p>You bring comfortable shoes. I’ll handle the tickets, the driving, the parking, and whatever the weather decides to do.</p>
+  </section>
+
+  <section class="rsvp-wrap">
+    <button class="rsvp" id="rsvp" type="button" aria-pressed="false">
+      <span class="a">I’ll be ready at 4</span>
+      <span class="b">Good. See you Friday.</span>
+    </button>
+    <a class="wa" id="wa" href="#" hidden>Send me a heads-up</a>
+  </section>
+
+  <footer>
+    <p class="ps" id="ps">P.S. If you’re reading this at 3:55 on Friday, I’m already outside.</p>
+    <p class="sign">Irfan</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  // Irfan: your WhatsApp number, international format, digits only (e.g. '60123456789').
+  // Leave it empty and the link uses the phone's share sheet instead.
+  var WA_NUMBER = '';
+
+  // Pushes a notification to Irfan's phone when she picks dinner or taps the button (ntfy.sh app, subscribed to this topic).
+  var NOTIFY_TOPIC = 'ain-fri-4e583438';
+  function notify(text) {
+    try { fetch('https://ntfy.sh/' + NOTIFY_TOPIC, { method: 'POST', body: text, keepalive: true }).catch(function () {}); } catch (e) {}
+  }
+
+  var T = new Date('2026-11-06T16:00:00+08:00').getTime();
+  var $ = function (s) { return document.querySelector(s); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  };
+
+  /* countdown + P.S. */
+  var count = $('#count'), ps = $('#ps');
+  function tick() {
+    var d = T - Date.now(), txt;
+    if (d > 2 * 36e5) {
+      var h = Math.floor(d / 36e5), m = Math.floor(d % 36e5 / 6e4), days = Math.floor(h / 24), hr = h % 24;
+      if (days >= 1) txt = 'That’s in ' + days + (days > 1 ? ' days' : ' day') + (hr ? ' and ' + hr + (hr === 1 ? ' hour' : ' hours') : '') + '.';
+      else txt = 'That’s in ' + h + 'h ' + (m < 10 ? '0' : '') + m + 'm.';
+    } else if (d > 6e4) {
+      var mm = Math.ceil(d / 6e4); txt = 'That’s in ' + mm + (mm > 1 ? ' minutes' : ' minute') + '.';
+    } else if (d > -7 * 36e5) {
+      txt = 'That’s now.';
+    } else {
+      txt = 'That was Friday.';
+    }
+    count.textContent = txt;
+    ps.textContent = (d < 40 * 6e4 && d > -15 * 6e4)
+      ? 'P.S. I’m already outside.'
+      : 'P.S. If you’re reading this at 3:55 on Friday, I’m already outside.';
+  }
+  tick(); setInterval(tick, 15000);
+
+  /* the ticket */
+  var ticket = $('#ticket'), hint = $('#hint'), flipped = false;
+  function flip() {
+    flipped = !flipped;
+    ticket.classList.toggle('flipped', flipped);
+    ticket.setAttribute('aria-pressed', String(flipped));
+    hint.classList.add('gone');
+  }
+  ticket.addEventListener('click', flip);
+  ticket.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } });
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    hint.textContent = 'Click the ticket.';
+    ticket.addEventListener('pointermove', function (e) {
+      var r = ticket.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      ticket.style.transition = 'transform .08s linear';
+      ticket.style.transform = 'rotateX(' + (-y * 9).toFixed(2) + 'deg) rotateY(' + (x * 11).toFixed(2) + 'deg)';
+    });
+    ticket.addEventListener('pointerleave', function () { ticket.style.transition = ''; ticket.style.transform = ''; });
+  }
+
+  /* dinner */
+  var picks = [].slice.call(document.querySelectorAll('.pick')), noted = $('#noted');
+  var choice = store.get('ain.dinner') || '';
+  function setChoice(v, quiet) {
+    choice = v;
+    if (v && !quiet) notify('Ain picked dinner: ' + v);
+    picks.forEach(function (b) { var on = b.textContent === v; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
+    noted.textContent = !v ? '' : (v === 'Surprise me' ? 'Noted. I’ve got a place in mind.' : 'Noted. ' + v + ' it is.');
+    store.set('ain.dinner', v);
+    updateWa();
+  }
+  picks.forEach(function (b) { b.addEventListener('click', function () { setChoice(b.textContent === choice ? '' : b.textContent); }); });
+
+  /* rsvp */
+  var rsvp = $('#rsvp'), wa = $('#wa'), done = store.get('ain.rsvp') === '1';
+  function msg() { return 'I’ll be ready at 4 🐠' + (choice ? '\nDinner: ' + choice : ''); }
+  function updateWa() {
+    if (WA_NUMBER) { wa.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg()); wa.textContent = 'Tell me on WhatsApp'; }
+    else { wa.href = '#'; wa.textContent = 'Send me a heads-up'; }
+  }
+  function markDone(animate) {
+    done = true;
+    rsvp.classList.add('done'); rsvp.setAttribute('aria-pressed', 'true');
+    wa.hidden = false; store.set('ain.rsvp', '1');
+    if (animate) notify('Ain: I’ll be ready at 4' + (choice ? ' (dinner: ' + choice + ')' : ''));
+    if (animate && window.__gather) { var r = rsvp.getBoundingClientRect(); window.__gather(r.left + r.width / 2, r.top + r.height / 2); }
+  }
+  rsvp.addEventListener('click', function () { if (!done) markDone(true); });
+  wa.addEventListener('click', function (e) {
+    if (WA_NUMBER) return;
+    e.preventDefault();
+    var text = msg();
+    if (navigator.share) { navigator.share({ text: text }).catch(function () {}); }
+    else if (navigator.clipboard) { navigator.clipboard.writeText(text).then(function () { wa.textContent = 'Copied. Send it to me.'; }); }
+  });
+  if (choice) setChoice(choice, true); else updateWa();
+  if (done) markDone(false);
+
+  /* scroll: rail + lit stops */
+  var stops = $('.stops'), stopEls = [].slice.call(document.querySelectorAll('.stop'));
+  var queued = false;
+  function onScroll() {
+    queued = false;
+    var mid = innerHeight * .58, r = stops.getBoundingClientRect();
+    stops.style.setProperty('--p', Math.max(0, Math.min(1, (mid - r.top) / r.height)).toFixed(3));
+    stopEls.forEach(function (el) { el.classList.toggle('lit', el.getBoundingClientRect().top < mid); });
+  }
+  function queue() { if (!queued) { queued = true; requestAnimationFrame(onScroll); } }
+  addEventListener('scroll', queue, { passive: true });
+  addEventListener('resize', queue);
+  onScroll();
+
+  /* the water */
+  (function () {
+    var c = document.getElementById('sea');
+    if (!c || matchMedia('(prefers-reduced-motion: reduce)').matches) { if (c) c.remove(); return; }
+    var ctx = c.getContext('2d'), W, H, fish = [], bubbles = [], blobs = [], t = 0, last = 0, running = true;
+    var pointer = { x: -9999, y: -9999, t: -1e9 }, gather = null;
+    var col = '143,227,244';
+    function rnd(a, b) { return a + Math.random() * (b - a); }
+    window.__gather = function (x, y) { gather = { x: x, y: y, until: performance.now() + 1400 }; };
+    function resize() {
+      var dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      W = innerWidth; H = innerHeight;
+      c.width = Math.round(W * dpr); c.height = Math.round(H * dpr);
+      c.style.width = W + 'px'; c.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    function init() {
+      resize();
+      var nf = W < 700 ? 7 : 11, nb = W < 700 ? 16 : 26, i;
+      for (i = 0; i < nf; i++) fish.push({ x: rnd(0, W), y: rnd(H * .05, H * .95), a: rnd(0, 6.283), v: rnd(16, 36), s: rnd(9, 20), ph: rnd(0, 6.283), al: rnd(.12, .26) });
+      for (i = 0; i < nb; i++) bubbles.push({ x: rnd(0, W), y: rnd(0, H), r: rnd(1, 3.2), v: rnd(10, 26), ph: rnd(0, 6.283) });
+      blobs = [{ ax: .3, ay: .25, fx: .11, fy: .07, ph: 0 }, { ax: .72, ay: .55, fx: .08, fy: .12, ph: 2 }];
+    }
+    function steer(f, ang, k) { var d = Math.atan2(Math.sin(ang - f.a), Math.cos(ang - f.a)); f.a += d * Math.min(1, k); }
+    function frame(now) {
+      if (!running) return;
+      requestAnimationFrame(frame);
+      var dt = Math.min(.05, (now - last) / 1000 || 0); last = now; t += dt;
+      ctx.clearRect(0, 0, W, H);
+
+      var R = Math.max(W, H) * .5;
+      blobs.forEach(function (b) {
+        var x = W * (b.ax + Math.sin(t * b.fx + b.ph) * .18), y = H * (b.ay + Math.cos(t * b.fy + b.ph) * .15);
+        var g = ctx.createRadialGradient(x, y, 0, x, y, R);
+        g.addColorStop(0, 'rgba(' + col + ',.075)'); g.addColorStop(1, 'rgba(' + col + ',0)');
+        ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+      });
+
+      ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(' + col + ',.22)';
+      bubbles.forEach(function (b) {
+        b.y -= b.v * dt; b.x += Math.sin(t * 1.4 + b.ph) * .25;
+        if (b.y < -8) { b.y = H + 8; b.x = rnd(0, W); }
+        ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, 6.283); ctx.stroke();
+      });
+
+      var near = (now - pointer.t) < 1200;
+      fish.forEach(function (f) {
+        var sp = f.v;
+        f.a += Math.sin(t * .6 + f.ph) * .5 * dt;
+        if (gather) {
+          if (now < gather.until) { steer(f, Math.atan2(gather.y - f.y, gather.x - f.x), dt * 5); sp = f.v * 4; }
+          else if (now < gather.until + 900) { steer(f, Math.atan2(f.y - gather.y, f.x - gather.x), dt * 5); sp = f.v * 3.5; }
+          else gather = null;
+        } else if (near) {
+          var dx = f.x - pointer.x, dy = f.y - pointer.y, d = Math.hypot(dx, dy);
+          if (d < 170) { var k = 1 - d / 170; steer(f, Math.atan2(dy, dx), dt * 6 * k + .02); sp = f.v * (1 + 3 * k); }
+        }
+        f.x += Math.cos(f.a) * sp * dt; f.y += Math.sin(f.a) * sp * dt;
+        var m = 40;
+        if (f.x < -m) f.x = W + m; else if (f.x > W + m) f.x = -m;
+        if (f.y < -m) f.y = H + m; else if (f.y > H + m) f.y = -m;
+
+        var s = f.s, wag = Math.sin(t * 7 + f.ph) * s * .22;
+        ctx.save(); ctx.translate(f.x, f.y); ctx.rotate(f.a);
+        ctx.fillStyle = 'rgba(' + col + ',' + f.al + ')';
+        ctx.beginPath(); ctx.moveTo(s, 0); ctx.quadraticCurveTo(s * .15, -s * .5, -s * .7, 0); ctx.quadraticCurveTo(s * .15, s * .5, s, 0); ctx.fill();
+        ctx.beginPath(); ctx.moveTo(-s * .55, 0); ctx.lineTo(-s * 1.2, -s * .42 + wag); ctx.lineTo(-s * 1.2, s * .42 + wag); ctx.closePath(); ctx.fill();
+        ctx.restore();
+      });
+    }
+    init();
+    addEventListener('resize', function () {
+      var ox = W, oy = H; resize();
+      fish.forEach(function (f) { f.x *= W / ox; f.y *= H / oy; });
+      bubbles.forEach(function (b) { b.x *= W / ox; b.y *= H / oy; });
+    });
+    function point(x, y) { pointer.x = x; pointer.y = y; pointer.t = performance.now(); }
+    addEventListener('pointermove', function (e) { point(e.clientX, e.clientY); }, { passive: true });
+    addEventListener('pointerdown', function (e) { point(e.clientX, e.clientY); }, { passive: true });
+    addEventListener('touchmove', function (e) { var p = e.touches[0]; if (p) point(p.clientX, p.clientY); }, { passive: true });
+    document.addEventListener('visibilitychange', function () { running = !document.hidden; if (running) { last = performance.now(); requestAnimationFrame(frame); } });
+    requestAnimationFrame(frame);
+  })();
+})();
+</script>
+</body>
+</html>
