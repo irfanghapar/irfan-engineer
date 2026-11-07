@@ -15,16 +15,16 @@
 <meta property="og:url" content="https://irfan.engineer/mira">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#071B2F">
+<meta name="theme-color" content="#2B1B13">
 <link rel="icon" href="/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#071B2F; --ink:#EAF2F6; --muted:rgba(234,242,246,.62);
-    --accent:#8FE3F4; --accent-ink:#06202E;
-    --paper:#F6F0E4; --paper-ink:#1B2531; --paper-muted:#5B6774; --band:#1DB3E7; --stamp:#1A7F9E;
+    --bg:#2B1B13; --ink:#F7ECDD; --muted:rgba(247,236,221,.62);
+    --accent:#E9B868; --accent-ink:#2B1B13;
+    --paper:#F8F1E4; --paper-ink:#2A1F18; --paper-muted:#7A6A5C; --band:#C9803C; --stamp:#9A4B2E;
   }
 
   *,*::before,*::after{ box-sizing:border-box; }
@@ -74,8 +74,8 @@
     box-shadow:inset 0 0 0 1.5px var(--paper), inset 0 0 0 2.5px var(--stamp);
   }
   .stamp small{ display:block; font-size:.62rem; letter-spacing:.14em; margin-top:.25rem; font-weight:600; }
-  .stub{ position:relative; border-left:2px dashed rgba(27,37,49,.35); display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:1.1rem .5rem; }
-  .bars{ width:2.1rem; height:3.6rem; background:repeating-linear-gradient(0deg, var(--paper-ink) 0 2px, transparent 2px 4px, var(--paper-ink) 4px 5px, transparent 5px 9px, var(--paper-ink) 9px 12px, transparent 12px 14px, var(--paper-ink) 14px 15px, transparent 15px 18px); }
+  .stub{ position:relative; border-left:2px dashed rgba(42,31,24,.35); display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:1.1rem .5rem; }
+  .bear{ width:2.6rem; height:2.6rem; display:block; }
   .admit{ writing-mode:vertical-rl; transform:rotate(180deg); font-weight:700; font-size:1.35rem; letter-spacing:.14em; }
   .back-body{ padding:1.1rem 1.1rem 1.2rem; }
   .terms{ margin:0; padding:0 0 0 1.1rem; font-weight:500; font-size:1.15rem; line-height:1.3; }
@@ -177,7 +177,7 @@
               <div class="stamp">CONFIRMED<small>SAT 07 NOV 2026</small></div>
             </div>
             <div class="stub">
-              <div class="bars"></div>
+              <svg class="bear" viewBox="0 0 64 64" aria-hidden="true"><g fill="#2A1F18"><circle cx="15" cy="19" r="10"/><circle cx="49" cy="19" r="10"/><circle cx="32" cy="36" r="23"/></g><g fill="#F8F1E4"><circle cx="15" cy="19" r="4.5"/><circle cx="49" cy="19" r="4.5"/><ellipse cx="32" cy="43" rx="10" ry="7"/><circle cx="23.5" cy="31" r="2.6"/><circle cx="40.5" cy="31" r="2.6"/></g><ellipse cx="32" cy="40.5" rx="3.6" ry="2.6" fill="#2A1F18"/><path d="M28 46.5c1.3 1.5 2.7 2.2 4 2.2s2.7-.7 4-2.2" fill="none" stroke="#2A1F18" stroke-width="1.6" stroke-linecap="round"/></svg>
               <div class="admit">ADMIT TWO</div>
             </div>
           </div>
@@ -193,7 +193,7 @@
               </ol>
             </div>
             <div class="stub">
-              <div class="bars"></div>
+              <svg class="bear" viewBox="0 0 64 64" aria-hidden="true"><g fill="#2A1F18"><circle cx="15" cy="19" r="10"/><circle cx="49" cy="19" r="10"/><circle cx="32" cy="36" r="23"/></g><g fill="#F8F1E4"><circle cx="15" cy="19" r="4.5"/><circle cx="49" cy="19" r="4.5"/><ellipse cx="32" cy="43" rx="10" ry="7"/><circle cx="23.5" cy="31" r="2.6"/><circle cx="40.5" cy="31" r="2.6"/></g><ellipse cx="32" cy="40.5" rx="3.6" ry="2.6" fill="#2A1F18"/><path d="M28 46.5c1.3 1.5 2.7 2.2 4 2.2s2.7-.7 4-2.2" fill="none" stroke="#2A1F18" stroke-width="1.6" stroke-linecap="round"/></svg>
               <div class="admit">NO REFUNDS</div>
             </div>
           </div>
@@ -387,7 +387,7 @@
     if (!c || matchMedia('(prefers-reduced-motion: reduce)').matches) { if (c) c.remove(); return; }
     var ctx = c.getContext('2d'), W, H, puffs = [], motes = [], blobs = [], t = 0, last = 0, running = true;
     var pointer = { x: -9999, y: -9999, t: -1e9 }, gather = null;
-    var col = '143,227,244';
+    var col = '247,236,221', warm = '233,184,104';
     function rnd(a, b) { return a + Math.random() * (b - a); }
     window.__gather = function (x, y) { gather = { x: x, y: y, until: performance.now() + 1400 }; };
     function resize() {
@@ -415,11 +415,11 @@
       blobs.forEach(function (b) {
         var x = W * (b.ax + Math.sin(t * b.fx + b.ph) * .18), y = H * (b.ay + Math.cos(t * b.fy + b.ph) * .15);
         var g = ctx.createRadialGradient(x, y, 0, x, y, R);
-        g.addColorStop(0, 'rgba(' + col + ',.075)'); g.addColorStop(1, 'rgba(' + col + ',0)');
+        g.addColorStop(0, 'rgba(' + warm + ',.09)'); g.addColorStop(1, 'rgba(' + warm + ',0)');
         ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
       });
 
-      ctx.fillStyle = 'rgba(' + col + ',.28)';
+      ctx.fillStyle = 'rgba(' + warm + ',.32)';
       motes.forEach(function (b) {
         b.y -= b.v * dt; b.x += Math.sin(t * 1.1 + b.ph) * .2;
         if (b.y < -8) { b.y = H + 8; b.x = rnd(0, W); }
