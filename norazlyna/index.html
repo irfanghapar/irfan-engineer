@@ -19,7 +19,7 @@
 <link rel="icon" href="/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/canvas-confetti/1.9.4/confetti.min.js"></script>
 <style>
@@ -29,15 +29,15 @@
     --paper:#FFFFFF; --paper-ink:#26201D; --paper-muted:#857A74;
   }
   *,*::before,*::after{ box-sizing:border-box; }
-  html{ -webkit-text-size-adjust:100%; }
+  html{ -webkit-text-size-adjust:100%; overflow-x:hidden; }
   body{
-    margin:0; min-height:100vh; overflow-x:hidden;
-    font-family:"Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif; font-size:1.05rem; line-height:1.6; font-weight:400; letter-spacing:.004em;
+    margin:0; min-height:100vh; overflow-x:hidden; overflow-x:clip; position:relative;
+    font-family:"Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif; font-size:1.04rem; line-height:1.65; font-weight:400; letter-spacing:.006em;
     background:var(--bg); color:var(--ink); -webkit-font-smoothing:antialiased;
     background-image:radial-gradient(ellipse 80% 40% at 50% -5%, rgba(122,31,51,.07), transparent 70%);
   }
   body.locked{ overflow:hidden; height:100vh; }
-  h1,h2,h3{ font-weight:700; line-height:1.15; margin:0; letter-spacing:-.012em; }
+  h1,h2,h3{ font-family:"Instrument Serif", Georgia, serif; font-weight:400; line-height:1.08; margin:0; letter-spacing:0; }
   p{ margin:0; }
 
   /* ---------- curtain ---------- */
@@ -63,11 +63,13 @@
   .rod{ position:absolute; top:0; left:0; right:0; height:8px; background:linear-gradient(var(--gold-2), #9a7a33); z-index:4; }
   .plaque{
     position:absolute; left:50%; top:21vh; transform:translateX(-50%); z-index:4; width:min(84vw, 23rem);
-    background:var(--paper); color:var(--ink); padding:1.5rem 1.5rem 1.4rem; text-align:left; border-radius:14px;
+    background:var(--paper); color:var(--ink); padding:1.5rem 1.5rem 1.4rem; text-align:left; border-radius:14px; overflow:visible;
     box-shadow:0 30px 60px rgba(0,0,0,.5);
   }
-  .plaque .date{ font-size:.92rem; font-weight:600; color:var(--wine); margin-bottom:.4rem; }
-  .plaque h1{ font-size:clamp(2rem, 8.5vw, 2.6rem); font-weight:800; }
+  .plaque .date{ font-size:.9rem; font-weight:500; color:var(--wine); margin-bottom:.45rem; }
+  .plaque h1{ font-size:clamp(2.6rem, 11vw, 3.4rem); }
+  .plaque h1 em{ font-style:italic; }
+  .plaque .flora{ position:absolute; right:-1.7rem; top:-2.4rem; width:6.8rem; height:auto; color:var(--rose); transform:rotate(16deg); pointer-events:none; }
   .plaque .when{ font-size:1.02rem; color:var(--muted); margin-top:.55rem; line-height:1.5; }
   .cord{ position:absolute; left:50%; top:calc(21vh + 12.6rem); z-index:5; width:7rem; margin-left:-3.5rem; text-align:center; cursor:grab; touch-action:none; -webkit-tap-highlight-color:transparent; user-select:none; }
   .cord:active{ cursor:grabbing; }
@@ -86,8 +88,12 @@
 
   /* ---------- page ---------- */
   main{ position:relative; z-index:1; max-width:33rem; margin:0 auto; padding:calc(env(safe-area-inset-top) + 9vh) 1.4rem 5rem; }
-  .salute{ font-weight:800; font-size:clamp(2.2rem, 9vw, 3rem); line-height:1.05; letter-spacing:-.02em; margin:0 0 .5rem; }
-  .intro{ font-size:1.12rem; color:var(--muted); margin:0 0 1.8rem; max-width:28rem; }
+  .salute{ font-style:italic; font-size:clamp(3rem, 12vw, 4rem); line-height:1; margin:0 0 .6rem; }
+  .intro{ font-size:1.08rem; color:var(--muted); margin:0 0 1.8rem; max-width:27rem; }
+  .flora-top{ position:absolute; right:-2.6rem; top:-1.2rem; width:11rem; height:auto; color:var(--rose); opacity:.55; transform:rotate(22deg); pointer-events:none; z-index:0; }
+  .flora-end{ position:absolute; left:-2.8rem; bottom:-1.6rem; width:10rem; height:auto; color:var(--rose); opacity:.5; transform:rotate(-150deg); pointer-events:none; z-index:0; }
+  .hero{ position:relative; z-index:1; }
+  footer{ position:relative; }
 
   .cardwrap{ position:relative; padding-top:2rem; }
   .mascot{ position:absolute; right:1.5rem; top:0; width:4.4rem; z-index:2; cursor:pointer; -webkit-tap-highlight-color:transparent; transform-origin:50% 100%; }
@@ -99,14 +105,14 @@
   .card{ position:relative; z-index:1; background:var(--paper); border-radius:16px; overflow:hidden; box-shadow:0 30px 50px -26px rgba(60,20,25,.35), 0 10px 20px -12px rgba(60,20,25,.18), 0 0 0 1px var(--line); transition:transform .5s ease; }
   .card::before,.card::after{ content:""; position:absolute; right:calc(5.2rem - 11px); width:22px; height:22px; border-radius:50%; background:var(--bg); box-shadow:inset 0 0 0 1px var(--line); z-index:2; }
   .card::before{ top:-11px; } .card::after{ bottom:-11px; }
-  .band{ background:var(--wine-deep); color:#fff; font-size:.9rem; font-weight:700; padding:.75rem 1.15rem; }
+  .band{ background:var(--wine-deep); color:#fff; font-size:.9rem; font-weight:500; padding:.75rem 1.15rem; }
   .tbody{ display:grid; grid-template-columns:1fr 5.2rem; }
   .tmain{ padding:1.05rem 1.15rem 1.15rem; display:flex; flex-direction:column; }
-  .kicker{ font-size:.82rem; color:var(--paper-muted); font-weight:600; }
-  .venue{ font-weight:800; font-size:1.75rem; line-height:1.1; letter-spacing:-.015em; margin:.25rem 0 .2rem; }
+  .kicker{ font-size:.82rem; color:var(--paper-muted); font-weight:500; }
+  .venue{ font-family:"Instrument Serif", Georgia, serif; font-size:2.15rem; line-height:1; margin:.2rem 0 .25rem; }
   .sub{ font-size:.92rem; color:var(--paper-muted); }
   dl{ margin:1rem 0 1rem; display:grid; grid-template-columns:auto 1fr; gap:.35rem 1rem; font-size:.95rem; line-height:1.35; }
-  dt{ color:var(--paper-muted); } dd{ margin:0; font-weight:600; }
+  dt{ color:var(--paper-muted); } dd{ margin:0; font-weight:500; }
   .stamp{
     width:max-content; margin:auto 0 0 auto; transform:rotate(-6deg);
     border:2px solid var(--wine); color:var(--wine); border-radius:6px; padding:.32rem .6rem .36rem;
@@ -121,11 +127,11 @@
   .hint.gone{ opacity:0; }
 
   .lede{ margin-top:2.8rem; }
-  .lede p:first-child{ font-size:1.4rem; font-weight:700; line-height:1.35; letter-spacing:-.012em; margin-bottom:.4rem; }
+  .lede p:first-child{ font-family:"Instrument Serif", Georgia, serif; font-size:1.8rem; line-height:1.25; margin-bottom:.4rem; }
   .count{ color:var(--muted); font-size:1.05rem; }
 
   .plan{ margin-top:4rem; }
-  .plan h2{ font-size:1.9rem; }
+  .plan h2{ font-size:2.5rem; }
   .plan .psub{ color:var(--muted); margin:.3rem 0 1.6rem; }
   .stops{ list-style:none; margin:0; padding:0 0 0 1.8rem; position:relative; --p:0; }
   .stops::before,.stops::after{ content:""; position:absolute; left:4px; top:.7rem; width:2px; border-radius:2px; }
@@ -135,18 +141,18 @@
   .stop:last-child{ padding-bottom:0; }
   .stop::before{ content:""; position:absolute; left:-1.8rem; top:.5rem; width:10px; height:10px; border-radius:50%; background:var(--bg); border:2px solid rgba(38,32,29,.3); transition:background-color .45s ease, border-color .45s ease; }
   .stop.lit::before{ background:var(--wine); border-color:var(--wine); }
-  .when{ display:block; font-size:.88rem; color:var(--muted); font-weight:600; }
-  .stop h3{ font-size:1.3rem; margin:.1rem 0 .25rem; }
+  .when{ display:block; font-size:.88rem; color:var(--muted); font-weight:500; }
+  .stop h3{ font-size:1.7rem; margin:.05rem 0 .25rem; }
   .stop p{ color:var(--muted); font-size:1rem; }
 
   .reply{ margin-top:4rem; }
-  .reply h2{ font-size:1.9rem; }
+  .reply h2{ font-size:2.5rem; }
   .reply .rsub{ color:var(--muted); margin:.3rem 0 1.6rem; }
   .q{ margin-top:1.6rem; }
-  .q label, .q .ql{ display:block; font-weight:700; font-size:1.05rem; margin-bottom:.6rem; }
+  .q label, .q .ql{ display:block; font-weight:600; font-size:1.02rem; margin-bottom:.6rem; }
   .picks{ display:flex; flex-wrap:wrap; gap:.5rem; }
   .pick{
-    font:inherit; font-weight:600; font-size:.95rem; background:#fff; border:1.5px solid var(--line); color:var(--ink);
+    font:inherit; font-weight:500; font-size:.95rem; background:#fff; border:1.5px solid var(--line); color:var(--ink);
     padding:.55em 1em; border-radius:999px; cursor:pointer; -webkit-tap-highlight-color:transparent;
     transition:background-color .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
   }
@@ -162,7 +168,7 @@
 
   .rsvp-wrap{ margin-top:2.4rem; }
   .rsvp{
-    display:grid; width:100%; padding:1.05rem 1.2rem; font:inherit; font-size:1.15rem; font-weight:700; line-height:1.2;
+    display:grid; width:100%; padding:1rem 1.2rem; font-family:"Instrument Serif", Georgia, serif; font-size:1.5rem; font-weight:400; line-height:1.2;
     background:var(--wine); color:#fff; border:1.5px solid var(--wine); border-radius:999px; cursor:pointer;
     box-shadow:0 16px 30px -14px rgba(91,18,33,.55);
     transition:background-color .5s ease, color .5s ease, border-color .5s ease, transform .15s ease, box-shadow .5s ease; -webkit-tap-highlight-color:transparent;
@@ -173,12 +179,12 @@
   .rsvp.done{ background:#fff; color:var(--ink); border-color:var(--line); box-shadow:none; cursor:default; }
   .rsvp.done .a{ opacity:0; transform:translateY(-6px); }
   .rsvp.done .b{ opacity:1; transform:none; }
-  .wa{ display:inline-block; margin-top:1rem; color:var(--muted); font-weight:600; text-decoration:underline; text-underline-offset:.22em; text-decoration-color:var(--wine); }
+  .wa{ display:inline-block; margin-top:1rem; color:var(--muted); font-weight:500; text-decoration:underline; text-underline-offset:.22em; text-decoration-color:var(--wine); }
   .wa[hidden]{ display:none; }
 
   footer{ margin-top:3.8rem; }
   .ps{ color:var(--muted); margin-bottom:1.4rem; }
-  .sign-off{ font-weight:800; font-size:1.5rem; letter-spacing:-.012em; }
+  .sign-off{ font-family:"Instrument Serif", Georgia, serif; font-style:italic; font-size:2.1rem; }
 
   button:focus-visible, a:focus-visible{ outline:2px solid var(--wine); outline-offset:4px; }
 
@@ -198,8 +204,9 @@
   <div class="valance"></div>
   <div class="rod"></div>
   <div class="plaque">
+    <svg class="flora" aria-hidden="true"><use href="#sprig"/></svg>
     <p class="date">Saturday, 14 November</p>
-    <h1>For Norazlyna</h1>
+    <h1>For <em>Norazlyna</em></h1>
     <p class="when">Three o’clock. Pull the cord when you’re ready.</p>
   </div>
   <div class="cord" id="cord" role="button" tabindex="0" aria-label="Pull to open the curtain">
@@ -211,9 +218,39 @@
 
 <canvas id="glow" aria-hidden="true"></canvas>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="blossom" viewBox="-14 -14 28 28">
+      <g fill="currentColor"><ellipse rx="4.2" ry="8" cy="-6"/><ellipse rx="4.2" ry="8" cy="-6" transform="rotate(72)"/><ellipse rx="4.2" ry="8" cy="-6" transform="rotate(144)"/><ellipse rx="4.2" ry="8" cy="-6" transform="rotate(216)"/><ellipse rx="4.2" ry="8" cy="-6" transform="rotate(288)"/></g>
+      <circle r="2.6" fill="#E3C98A"/>
+    </symbol>
+    <symbol id="sprig" viewBox="0 0 200 260">
+      <g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+        <path d="M100 255 C 92 200, 108 150, 96 95 C 90 70, 84 50, 82 30"/>
+        <path d="M97 160 C 120 150, 140 135, 150 110"/>
+        <path d="M100 205 C 75 195, 58 180, 52 155"/>
+        <path d="M94 120 C 118 112, 135 98, 142 80"/>
+      </g>
+      <g fill="currentColor" opacity=".5">
+        <path d="M103 185 C 118 178, 132 180, 140 192 C 128 200, 112 198, 103 185 Z"/>
+        <path d="M96 230 C 80 224, 66 226, 58 238 C 70 246, 86 244, 96 230 Z"/>
+        <path d="M98 140 C 84 132, 70 134, 62 146 C 74 154, 90 152, 98 140 Z"/>
+        <path d="M99 108 C 112 100, 124 102, 130 112 C 120 118, 108 116, 99 108 Z"/>
+      </g>
+      <use href="#blossom" x="66" y="12" width="32" height="32"/>
+      <use href="#blossom" x="137" y="96" width="26" height="26"/>
+      <use href="#blossom" x="39" y="142" width="24" height="24"/>
+      <use href="#blossom" x="132" y="68" width="18" height="18"/>
+    </symbol>
+  </defs>
+</svg>
+
 <main id="page">
+  <div class="hero">
+  <svg class="flora-top" aria-hidden="true"><use href="#sprig"/></svg>
   <h1 class="salute">Norazlyna,</h1>
   <p class="intro">I planned Saturday. Here’s the whole thing, plus a couple of questions only you can answer.</p>
+  </div>
 
   <section class="cardwrap">
     <div class="bubble" id="bubble">You’re naming me on Saturday.</div>
@@ -332,6 +369,7 @@
   </section>
 
   <footer>
+    <svg class="flora-end" aria-hidden="true"><use href="#sprig"/></svg>
     <p class="ps" id="ps">P.S. If you’re reading this at 2:55 on Saturday, I’m already at the gate.</p>
     <p class="sign-off">Irfan</p>
   </footer>
@@ -437,9 +475,9 @@
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
     resize();
-    var nm = W < 700 ? 16 : 26, np = W < 700 ? 5 : 8, i;
+    var nm = W < 700 ? 16 : 26, np = W < 700 ? 7 : 11, i;
     for (i = 0; i < nm; i++) motes.push({ x: rnd(0, W), y: rnd(0, H), r: rnd(1.2, 3), v: rnd(5, 14), ph: rnd(0, 6.283), al: rnd(.2, .45), d: rnd(.4, 1) });
-    for (i = 0; i < np; i++) petals.push({ x: rnd(0, W), y: rnd(-H, H), s: rnd(5, 8), v: rnd(10, 20), ph: rnd(0, 6.283), rot: rnd(0, 6.283), spin: rnd(-.8, .8), al: rnd(.22, .42) });
+    for (i = 0; i < np; i++) petals.push({ x: rnd(0, W), y: rnd(-H, H), s: rnd(5, 8), v: rnd(10, 20), ph: rnd(0, 6.283), rot: rnd(0, 6.283), spin: rnd(-.8, .8), al: rnd(.22, .42), bloom: i % 3 === 0 });
     function frame(now) {
       if (!running) return;
       requestAnimationFrame(frame);
@@ -459,7 +497,12 @@
         var x = p.x + px * .6, y = p.y + py * .6, s = p.s;
         ctx.save(); ctx.translate(x, y); ctx.rotate(p.rot);
         ctx.fillStyle = 'rgba(201,138,145,' + p.al + ')';
-        ctx.beginPath(); ctx.moveTo(0, -s); ctx.bezierCurveTo(s * 1.1, -s * .6, s * 1.1, s * .7, 0, s); ctx.bezierCurveTo(-s * 1.1, s * .7, -s * 1.1, -s * .6, 0, -s); ctx.fill();
+        if (p.bloom) {
+          for (var k = 0; k < 5; k++) { ctx.beginPath(); ctx.ellipse(0, -s * .75, s * .42, s * .8, 0, 0, 6.283); ctx.fill(); ctx.rotate(1.2566); }
+          ctx.fillStyle = 'rgba(227,201,138,' + (p.al + .2) + ')'; ctx.beginPath(); ctx.arc(0, 0, s * .28, 0, 6.283); ctx.fill();
+        } else {
+          ctx.beginPath(); ctx.moveTo(0, -s); ctx.bezierCurveTo(s * 1.1, -s * .6, s * 1.1, s * .7, 0, s); ctx.bezierCurveTo(-s * 1.1, s * .7, -s * 1.1, -s * .6, 0, -s); ctx.fill();
+        }
         ctx.restore();
       });
     }
