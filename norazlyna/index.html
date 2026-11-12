@@ -89,10 +89,11 @@
   .hero{ position:relative; z-index:1; }
   footer{ position:relative; }
 
-  .cardwrap{ position:relative; padding-top:2rem; }
-  .mascot{ position:absolute; right:1.5rem; top:0; width:4.4rem; z-index:2; cursor:pointer; -webkit-tap-highlight-color:transparent; transform-origin:50% 100%; }
+  .cardwrap{ position:relative; padding-top:4.8rem; }
+  .peek{ position:absolute; left:.5rem; top:0; width:6.9rem; height:auto; z-index:0; pointer-events:none; filter:drop-shadow(0 -2px 10px rgba(38,32,29,.12)); }
+  .mascot{ position:absolute; right:1.5rem; top:1.5rem; width:4.4rem; z-index:2; cursor:pointer; -webkit-tap-highlight-color:transparent; transform-origin:50% 100%; }
   .mascot svg{ width:100%; height:auto; display:block; filter:drop-shadow(0 6px 10px rgba(38,32,29,.18)); }
-  .bubble{ position:absolute; right:6.2rem; top:.1rem; z-index:3; background:var(--ink); color:#fff; border-radius:12px; padding:.5rem .75rem; font-size:.9rem; font-weight:500; line-height:1.35; width:max-content; max-width:12.5rem; box-shadow:0 10px 24px rgba(38,32,29,.18); opacity:0; transform:translateY(6px); pointer-events:none; }
+  .bubble{ position:absolute; right:6.2rem; top:1.6rem; z-index:3; background:var(--ink); color:#fff; border-radius:12px; padding:.5rem .75rem; font-size:.9rem; font-weight:500; line-height:1.35; width:max-content; max-width:12.5rem; box-shadow:0 10px 24px rgba(38,32,29,.18); opacity:0; transform:translateY(6px); pointer-events:none; }
   .bubble::after{ content:""; position:absolute; right:-7px; bottom:10px; border:7px solid transparent; border-left-color:var(--ink); border-right:0; }
   .bubble.show{ opacity:1; transform:none; transition:opacity .3s, transform .35s ease; }
 
@@ -120,8 +121,11 @@
   .hint{ margin:.9rem 0 0; font-size:.92rem; color:var(--muted); transition:opacity .6s ease; }
   .hint.gone{ opacity:0; }
 
-  .lede{ margin-top:2.8rem; }
-  .lede p:first-child{ font-family:"Instrument Serif", Georgia, serif; font-size:1.8rem; line-height:1.25; margin-bottom:.4rem; }
+  .lede{ margin-top:2.8rem; display:flow-root; }
+  .polaroid{ float:right; width:7.4rem; margin:0 0 .6rem 1.1rem; background:#fff; padding:.4rem .4rem 1.9rem; box-shadow:0 16px 28px -16px rgba(38,32,29,.4), 0 0 0 1px var(--line); transform:rotate(4deg); position:relative; }
+  .polaroid img{ display:block; width:100%; height:auto; aspect-ratio:1/1.08; object-fit:cover; object-position:50% 38%; }
+  .polaroid figcaption{ position:absolute; left:0; right:0; bottom:.5rem; text-align:center; font-family:"Instrument Serif", Georgia, serif; font-style:italic; font-size:1rem; line-height:1.1; color:var(--muted); }
+  .lede > p:first-of-type{ font-family:"Instrument Serif", Georgia, serif; font-size:1.8rem; line-height:1.25; margin-bottom:.4rem; }
   .count{ color:var(--muted); font-size:1.05rem; }
 
   .plan{ margin-top:4rem; }
@@ -242,10 +246,11 @@
   <div class="hero">
   <svg class="flora-top" aria-hidden="true"><use href="#sprig"/></svg>
   <h1 class="salute">Norazlyna,</h1>
-  <p class="intro">I planned Saturday. Here’s the whole thing, plus a couple of questions only you can answer.</p>
+  <p class="intro">I’ve taken care of Saturday, and I’ve been looking forward to it more than I should probably admit. Here’s what I have in mind, and a few small things only you can answer.</p>
   </div>
 
   <section class="cardwrap">
+    <img class="peek" src="p2.webp" alt="" width="520" height="900">
     <div class="bubble" id="bubble">You’re naming me on Saturday.</div>
     <div class="mascot" id="mascot" role="button" tabindex="0" aria-label="A teddy bear. Tap it.">
       <svg viewBox="0 0 96 72" aria-hidden="true">
@@ -286,6 +291,7 @@
   </section>
 
   <section class="lede">
+    <figure class="polaroid"><img src="p1.webp" alt="" width="640" height="771"><figcaption>Saturday, 3.</figcaption></figure>
     <p>The bear is booked. Coffee’s picked. All that’s missing is you, at 3.</p>
     <p class="count" id="count">That’s Saturday.</p>
   </section>
