@@ -376,7 +376,6 @@
 
   /* ---------- curtain ---------- */
   var curtain = $('#curtain'), cord = $('#cord'), rope = $('#rope'), pull = $('#pull'), opened = false;
-  var recently = +store.get('nora.opened') || 0;
   function reveal() {
     document.body.classList.remove('locked');
     if (G && !reduce) {
@@ -387,7 +386,6 @@
   }
   function openCurtain(instant) {
     if (opened) return; opened = true;
-    store.set('nora.opened', String(Date.now()));
     if (instant) { curtain.remove(); reveal(); return; }
     dust({ particleCount: 110, spread: 110, origin: { y: .3 } });
     setTimeout(function () { dust({ particleCount: 50, angle: 60, spread: 55, origin: { x: 0, y: .55 } }); dust({ particleCount: 50, angle: 120, spread: 55, origin: { x: 1, y: .55 } }); }, 350);
@@ -406,9 +404,7 @@
       setTimeout(reveal, 500);
     }
   }
-  if (Date.now() - recently < 30 * 60e3) {
-    openCurtain(true);
-  } else {
+  {
     var startY = 0, dy = 0, dragging = false, MAX = 150, THRESH = 110;
     function setPull(v) {
       dy = Math.max(0, Math.min(MAX, v));
