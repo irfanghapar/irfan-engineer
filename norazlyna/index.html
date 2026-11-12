@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Norazlyna, Saturday at 3</title>
+<title>Norazlyna, Saturday at 4</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="googlebot" content="noindex, nofollow, noarchive">
-<meta name="description" content="Saturday, 3pm. The bear is booked.">
-<meta property="og:title" content="For Norazlyna. Saturday, 3pm.">
+<meta name="description" content="Saturday, 4pm. The bear is booked.">
+<meta property="og:title" content="For Norazlyna. Saturday, 4pm.">
 <meta property="og:description" content="The bear is booked. Coffee’s picked. All that’s missing is you.">
 <meta property="og:image" content="https://irfan.engineer/norazlyna/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -251,7 +251,7 @@
   </div>
 
   <section class="cardwrap">
-    <img class="peek" src="/norazlyna/nora-2.webp" alt="" width="520" height="900">
+    <img class="peek" src="/norazlyna/nora-2.webp" onerror="this.onerror=null;this.src='nora-2.webp'" alt="" width="520" height="900">
     <div class="bubble" id="bubble">You’re naming me on Saturday.</div>
     <div class="mascot" id="mascot" role="button" tabindex="0" aria-label="A teddy bear. Tap it.">
       <svg viewBox="0 0 96 72" aria-hidden="true">
@@ -278,7 +278,7 @@
           <dl>
             <dt>Session</dt><dd>Build a bear, for two</dd>
             <dt>Date</dt><dd>Saturday, 14 November</dd>
-            <dt>Pickup</dt><dd>Eco Grandeur, Puncak Alam, 3:00</dd>
+            <dt>Pickup</dt><dd>Eco Grandeur, Puncak Alam, 4:00</dd>
           </dl>
           <div class="stamp">CONFIRMED<small>14 NOV 2026</small></div>
         </div>
@@ -292,8 +292,8 @@
   </section>
 
   <section class="lede">
-    <figure class="polaroid" id="polaroid"><img src="/norazlyna/nora-1.webp" alt="" width="640" height="800"><figcaption>The reason for all this.</figcaption></figure>
-    <p>The bear is booked. Coffee’s picked. All that’s missing is you, at 3.</p>
+    <figure class="polaroid" id="polaroid"><img src="/norazlyna/nora-1.webp" onerror="this.onerror=null;this.src='nora-1.webp'" alt="" width="640" height="800"><figcaption>The reason for all this.</figcaption></figure>
+    <p>The bear is booked. Coffee’s picked. All that’s missing is you, at 4.</p>
     <p class="count" id="count">That’s Saturday.</p>
   </section>
 
@@ -302,17 +302,17 @@
     <p class="psub">Loosely. We can go off-script.</p>
     <ol class="stops">
       <li class="stop">
-        <span class="when">3:00</span>
+        <span class="when">4:00</span>
         <h3>I pick you up.</h3>
         <p>Eco Grandeur, Puncak Alam. Take your time. I’ll text when I’m at the gate.</p>
       </li>
       <li class="stop">
-        <span class="when">Around 4:00</span>
+        <span class="when">Around 5:00</span>
         <h3>Happy Hour Club.</h3>
         <p>We build a bear. You pick it, you stuff it, and at the end it gets its own passport. You name it. I’ll remember the name.</p>
       </li>
       <li class="stop">
-        <span class="when">Around 6:00</span>
+        <span class="when">Around 6:30</span>
         <h3>The LINC.</h3>
         <p>Coffee, the good kind. Then we actually talk. That’s the part I’ve been looking forward to.</p>
       </li>
@@ -362,7 +362,7 @@
 
   <section class="rsvp-wrap">
     <button class="rsvp" id="rsvp" type="button" aria-pressed="false">
-      <span class="a">I’ll be ready at 3</span>
+      <span class="a">I’ll be ready at 4</span>
       <span class="b">Then I’ll see you Saturday.</span>
     </button>
     <a class="wa" id="wa" href="#" hidden>Send me a heads-up</a>
@@ -370,7 +370,7 @@
 
   <footer>
     <svg class="flora-end" aria-hidden="true"><use href="#sprig"/></svg>
-    <p class="ps" id="ps">P.S. If you’re reading this at 2:55 on Saturday, I’m already at the gate.</p>
+    <p class="ps" id="ps">P.S. If you’re reading this at 3:55 on Saturday, I’m already at the gate.</p>
     <p class="sign-off">Irfan</p>
   </footer>
 </main>
@@ -389,7 +389,7 @@
     try { fetch('https://ntfy.sh/' + NOTIFY_TOPIC, { method: 'POST', body: text, keepalive: true }).catch(function () {}); } catch (e) {}
   }
 
-  var T = new Date('2026-11-14T15:00:00+08:00').getTime();
+  var T = new Date('2026-11-14T16:00:00+08:00').getTime();
   var $ = function (s) { return document.querySelector(s); };
   var G = window.gsap || null;
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -530,7 +530,7 @@
     count.textContent = txt;
     ps.textContent = (d < 40 * 6e4 && d > -15 * 6e4)
       ? 'P.S. I’m already at the gate.'
-      : 'P.S. If you’re reading this at 2:55 on Saturday, I’m already at the gate.';
+      : 'P.S. If you’re reading this at 3:55 on Saturday, I’m already at the gate.';
   }
   tick(); setInterval(tick, 15000);
 
@@ -612,7 +612,7 @@
     if (spot.value.trim()) parts.push('Pickup: ' + spot.value.trim());
     return parts.join(sep);
   }
-  function msg() { var s = summary('\n'); return 'I’ll be ready at 3 🧸' + (s ? '\n' + s : ''); }
+  function msg() { var s = summary('\n'); return 'I’ll be ready at 4 🧸' + (s ? '\n' + s : ''); }
   function updateWa() {
     if (WA_NUMBER) { wa.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg()); wa.textContent = 'Tell me on WhatsApp'; }
     else { wa.href = '#'; wa.textContent = 'Send me a heads-up'; }
@@ -623,7 +623,7 @@
     wa.hidden = false; store.set('nora.rsvp', '1');
     if (animate) {
       var s = summary(' / ');
-      notify('Norazlyna: I’ll be ready at 3' + (s ? ' (' + s + ')' : ''));
+      notify('Norazlyna: I’ll be ready at 4' + (s ? ' (' + s + ')' : ''));
       var r = rsvp.getBoundingClientRect();
       dust({ particleCount: 60, spread: 70, startVelocity: 20, origin: { x: (r.left + r.width / 2) / innerWidth, y: (r.top + r.height / 2) / innerHeight } });
     }
