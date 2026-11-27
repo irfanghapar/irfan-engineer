@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Norazlyna, Saturday at 4</title>
+<title>Aqilah, tonight</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="googlebot" content="noindex, nofollow, noarchive">
-<meta name="description" content="Saturday, 4pm. The bear is booked.">
-<meta property="og:title" content="For Norazlyna. Saturday, 4pm.">
-<meta property="og:description" content="The bear is booked. Coffee’s picked. All that’s missing is you.">
-<meta property="og:image" content="https://irfan.engineer/norazlyna/og.jpg">
+<meta name="description" content="Tonight. The table’s booked.">
+<meta property="og:title" content="For Aqilah. Tonight.">
+<meta property="og:description" content="Last minute, I know. The table’s booked. All that’s missing is you.">
+<meta property="og:image" content="https://irfan.engineer/aqilah/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://irfan.engineer/norazlyna">
+<meta property="og:url" content="https://irfan.engineer/aqilah">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#4E0F1C">
@@ -89,14 +89,7 @@
   .hero{ position:relative; z-index:1; }
   footer{ position:relative; }
 
-  .cardwrap{ position:relative; padding-top:4.8rem; }
-  .peek{ position:absolute; left:.4rem; top:-.3rem; width:7.4rem; height:auto; z-index:0; pointer-events:none; filter:drop-shadow(0 -2px 10px rgba(38,32,29,.12)); }
-  .mascot{ position:absolute; right:1.5rem; top:1.5rem; width:4.4rem; z-index:2; cursor:pointer; -webkit-tap-highlight-color:transparent; transform-origin:50% 100%; }
-  .mascot svg{ width:100%; height:auto; display:block; filter:drop-shadow(0 6px 10px rgba(38,32,29,.18)); }
-  .bubble{ position:absolute; right:.4rem; bottom:calc(100% - 1.7rem); z-index:3; background:var(--ink); color:#fff; border-radius:12px; padding:.5rem .75rem; font-size:.9rem; font-weight:500; line-height:1.35; width:max-content; max-width:12.5rem; box-shadow:0 10px 24px rgba(38,32,29,.18); opacity:0; transform:translateY(6px); pointer-events:none; }
-  .bubble::after{ content:""; position:absolute; right:2rem; bottom:-7px; border:7px solid transparent; border-top-color:var(--ink); border-bottom:0; }
-  .bubble.show{ opacity:1; transform:none; transition:opacity .3s, transform .35s ease; }
-
+  .cardwrap{ position:relative; }
   .card{ position:relative; z-index:1; background:var(--paper); border-radius:16px; overflow:hidden; box-shadow:0 30px 50px -26px rgba(60,20,25,.35), 0 10px 20px -12px rgba(60,20,25,.18), 0 0 0 1px var(--line); transition:transform .5s ease; }
   .card::before,.card::after{ content:""; position:absolute; right:calc(5.2rem - 11px); width:22px; height:22px; border-radius:50%; background:var(--bg); box-shadow:inset 0 0 0 1px var(--line); z-index:2; }
   .card::before{ top:-11px; } .card::after{ bottom:-11px; }
@@ -116,16 +109,12 @@
   }
   .stamp small{ display:block; font-size:.6rem; letter-spacing:.08em; font-weight:600; margin-top:.28rem; }
   .stub{ position:relative; border-left:1.5px dashed rgba(38,32,29,.28); display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:1.1rem .5rem; }
-  .bear{ width:2.5rem; height:2.5rem; display:block; }
+  .stub-icon{ width:2.4rem; height:2.4rem; display:block; color:var(--rose); }
   .admit{ writing-mode:vertical-rl; transform:rotate(180deg); font-size:.78rem; letter-spacing:.18em; font-weight:800; }
   .hint{ margin:.9rem 0 0; font-size:.92rem; color:var(--muted); transition:opacity .6s ease; }
   .hint.gone{ opacity:0; }
 
-  .lede{ margin-top:2.8rem; display:flow-root; }
-  .polaroid{ float:right; width:8.6rem; margin:.2rem -.4rem .8rem 1.1rem; background:#fff; padding:.45rem .45rem 2.3rem; cursor:pointer; -webkit-tap-highlight-color:transparent; box-shadow:0 16px 28px -16px rgba(38,32,29,.4), 0 0 0 1px var(--line); transform:rotate(4deg); position:relative; }
-  .polaroid img{ display:block; width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; }
-  .polaroid::before{ content:""; position:absolute; left:50%; top:-.55rem; width:3.2rem; height:1.1rem; margin-left:-1.6rem; background:rgba(241,220,217,.85); transform:rotate(-4deg); box-shadow:0 1px 2px rgba(38,32,29,.08); }
-  .polaroid figcaption{ position:absolute; left:0; right:0; bottom:.5rem; text-align:center; font-family:"Instrument Serif", Georgia, serif; font-style:italic; font-size:.98rem; line-height:1.1; color:var(--muted); padding:0 .3rem; }
+  .lede{ margin-top:2.8rem; }
   .lede > p:first-of-type{ font-family:"Instrument Serif", Georgia, serif; font-size:1.8rem; line-height:1.25; margin-bottom:.4rem; }
   .count{ color:var(--muted); font-size:1.05rem; }
 
@@ -205,7 +194,7 @@
   <div class="welcome">
     <svg class="flora" aria-hidden="true"><use href="#sprig"/></svg>
     <p class="hello">Welcome,</p>
-    <h1>Norazlyna</h1>
+    <h1>Aqilah</h1>
   </div>
   <div class="cord" id="cord" role="button" tabindex="0" aria-label="Pull to open the curtain">
     <div class="rope" id="rope"></div>
@@ -246,55 +235,36 @@
 <main id="page">
   <div class="hero">
   <svg class="flora-top" aria-hidden="true"><use href="#sprig"/></svg>
-  <h1 class="salute">Norazlyna,</h1>
-  <p class="intro">I’ve been looking forward to Saturday all week. Mostly because it’s with you. Here’s what I have in mind, and a few small things only you can answer.</p>
+  <h1 class="salute">Aqilah,</h1>
+  <p class="intro">I know this is last minute. I just didn’t want to wait for a better excuse to see you. Here’s tonight, and a couple of small things only you can answer.</p>
   </div>
 
   <section class="cardwrap">
-    <img class="peek" src="/norazlyna/nora-2.webp" onerror="this.onerror=null;this.src='nora-2.webp'" alt="" width="520" height="900">
-    <div class="bubble" id="bubble">You’re naming me on Saturday.</div>
-    <div class="mascot" id="mascot" role="button" tabindex="0" aria-label="A teddy bear. Tap it.">
-      <svg viewBox="0 0 96 72" aria-hidden="true">
-        <g fill="#A97A4F">
-          <circle cx="20" cy="20" r="13"/><circle cx="76" cy="20" r="13"/>
-          <circle cx="48" cy="40" r="30"/>
-          <ellipse cx="14" cy="68" rx="12" ry="9"/><ellipse cx="82" cy="68" rx="12" ry="9"/>
-        </g>
-        <g fill="#D9B990"><circle cx="20" cy="20" r="6"/><circle cx="76" cy="20" r="6"/><ellipse cx="48" cy="50" rx="14" ry="10"/></g>
-        <g fill="#26201D"><circle cx="37" cy="35" r="3.4"/><circle cx="59" cy="35" r="3.4"/><ellipse cx="48" cy="46" rx="5" ry="3.6"/></g>
-        <g fill="#fff"><circle cx="38.2" cy="33.9" r="1.1"/><circle cx="60.2" cy="33.9" r="1.1"/></g>
-        <path d="M42.5 54c2 2.2 3.8 3.3 5.5 3.3s3.5-1.1 5.5-3.3" fill="none" stroke="#26201D" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M48 58.5c-3-3.4-8 .2-5.2 3.4L48 66l5.2-4.1c2.8-3.2-2.2-6.8-5.2-3.4z" fill="#C98A91" opacity=".95"/>
-      </svg>
-    </div>
-
     <div class="card" id="card">
-      <div class="band">Your Saturday</div>
+      <div class="band">Tonight</div>
       <div class="tbody">
         <div class="tmain">
-          <div class="kicker">Workshop booking</div>
-          <div class="venue">Happy Hour Club</div>
-          <div class="sub">Desa Sri Hartamas, Kuala Lumpur</div>
+          <div class="kicker">Dinner reservation</div>
+          <div class="venue">Envi Skydining</div>
+          <div class="sub">Menara TA One, Jalan P. Ramlee, Kuala Lumpur</div>
           <dl>
-            <dt>Session</dt><dd>Build a bear, for two</dd>
-            <dt>Date</dt><dd>Saturday, 14 November</dd>
-            <dt>Pickup</dt><dd>Eco Grandeur, Puncak Alam, 4:00</dd>
+            <dt>Table</dt><dd>For two</dd>
+            <dt>Date</dt><dd>Friday, 27 November</dd>
+            <dt>Before</dt><dd>Coffee, around 6</dd>
           </dl>
-          <div class="stamp">CONFIRMED<small>14 NOV 2026</small></div>
+          <div class="stamp">CONFIRMED<small>27 NOV 2026</small></div>
         </div>
         <div class="stub">
-          <svg class="bear" viewBox="0 0 64 64" aria-hidden="true"><g fill="#26201D"><circle cx="15" cy="19" r="10"/><circle cx="49" cy="19" r="10"/><circle cx="32" cy="36" r="23"/></g><g fill="#fff"><circle cx="15" cy="19" r="4.5"/><circle cx="49" cy="19" r="4.5"/><ellipse cx="32" cy="43" rx="10" ry="7"/><circle cx="23.5" cy="31" r="2.6"/><circle cx="40.5" cy="31" r="2.6"/></g><ellipse cx="32" cy="40.5" rx="3.6" ry="2.6" fill="#26201D"/><path d="M28 46.5c1.3 1.5 2.7 2.2 4 2.2s2.7-.7 4-2.2" fill="none" stroke="#26201D" stroke-width="1.6" stroke-linecap="round"/></svg>
-          <div class="admit">ADMIT TWO</div>
+          <svg class="stub-icon" aria-hidden="true"><use href="#blossom"/></svg>
+          <div class="admit">TABLE FOR TWO</div>
         </div>
       </div>
     </div>
-    <p class="hint" id="hint">The bear talks, by the way.</p>
   </section>
 
   <section class="lede">
-    <figure class="polaroid" id="polaroid"><img src="/norazlyna/nora-1.webp" onerror="this.onerror=null;this.src='nora-1.webp'" alt="" width="640" height="800"><figcaption>The reason for all this.</figcaption></figure>
-    <p>The bear is booked. Coffee’s picked. All that’s missing is you, at 4.</p>
-    <p class="count" id="count">That’s Saturday.</p>
+    <p>The table’s booked. Coffee’s on me. All that’s missing is you, tonight.</p>
+    <p class="count" id="count">Coffee’s around 6.</p>
   </section>
 
   <section class="plan">
@@ -302,42 +272,31 @@
     <p class="psub">Loosely. We can go off-script.</p>
     <ol class="stops">
       <li class="stop">
-        <span class="when">4:00</span>
+        <span class="when">Before 6</span>
         <h3>I pick you up.</h3>
-        <p>Eco Grandeur, Puncak Alam. Take your time. I’ll text when I’m at the gate.</p>
+        <p>Take your time. I’ll text when I’m outside.</p>
       </li>
       <li class="stop">
-        <span class="when">Around 5:00</span>
-        <h3>Happy Hour Club.</h3>
-        <p>We build a bear. You pick it, you stuff it, and at the end it gets its own passport. You name it. I’ll remember the name.</p>
+        <span class="when">Around 6</span>
+        <h3>Coffee first.</h3>
+        <p>Somewhere cosy to start, so we can actually talk.</p>
       </li>
       <li class="stop">
-        <span class="when">Around 6:30</span>
-        <h3>The LINC.</h3>
-        <p>Coffee, the good kind. Then we actually talk. That’s the part I’ve been looking forward to.</p>
+        <span class="when">After</span>
+        <h3>Envi Skydining.</h3>
+        <p>Dinner on a rooftop over the city. The table’s booked, so all we have to do is show up.</p>
       </li>
       <li class="stop">
         <span class="when">Later</span>
         <h3>Your call.</h3>
-        <p>Dinner if we’re hungry. Somewhere else if we’re not done talking. I’m hoping for the second one.</p>
+        <p>Home if you’re tired. Somewhere else if we’re not done talking. I’m hoping for the second one.</p>
       </li>
     </ol>
   </section>
 
   <section class="reply">
-    <h2>Three quick things.</h2>
+    <h2>Two quick things.</h2>
     <p class="rsub">So I get the little things right. Your answers come straight to me.</p>
-
-    <div class="q">
-      <p class="ql">Dinner, if we get there?</p>
-      <div class="picks" id="dinner" role="group" aria-label="Dinner">
-        <button class="pick" type="button" aria-pressed="false">Japanese</button>
-        <button class="pick" type="button" aria-pressed="false">Western</button>
-        <button class="pick" type="button" aria-pressed="false">Something local</button>
-        <button class="pick" type="button" aria-pressed="false">Surprise me</button>
-      </div>
-      <p class="noted" id="noted" aria-live="polite"></p>
-    </div>
 
     <div class="q">
       <p class="ql">Anything you don’t eat?</p>
@@ -350,27 +309,27 @@
     </div>
 
     <div class="q">
-      <label for="spot">Where exactly do I pick you up?</label>
-      <input id="spot" type="text" inputmode="text" autocomplete="off" maxlength="80" placeholder="Street, block or gate in Eco Grandeur">
+      <label for="spot">Where do I pick you up?</label>
+      <input id="spot" type="text" inputmode="text" autocomplete="off" maxlength="80" placeholder="Your area, building or gate">
       <small>Optional. So I don’t get lost on the way to you.</small>
     </div>
   </section>
 
   <section class="fine">
-    <p>You bring comfortable shoes. I’ll handle the booking, the driving, the parking, and whatever the weather decides to do.</p>
+    <p>You just bring yourself. I’ll handle the booking, the driving, the parking, and whatever the weather decides to do.</p>
   </section>
 
   <section class="rsvp-wrap">
     <button class="rsvp" id="rsvp" type="button" aria-pressed="false">
-      <span class="a">I’ll be ready at 4</span>
-      <span class="b">Then I’ll see you Saturday.</span>
+      <span class="a">I’m in</span>
+      <span class="b">Good. See you soon.</span>
     </button>
     <a class="wa" id="wa" href="#" hidden>Send me a heads-up</a>
   </section>
 
   <footer>
     <svg class="flora-end" aria-hidden="true"><use href="#sprig"/></svg>
-    <p class="ps" id="ps">P.S. If you’re reading this at 3:55 on Saturday, I’m already at the gate.</p>
+    <p class="ps" id="ps">P.S. Yes, it’s last minute. That’s half the fun.</p>
     <p class="sign-off">Irfan</p>
   </footer>
 </main>
@@ -384,12 +343,12 @@
   var WA_NUMBER = '';
 
   // Pushes a notification to Irfan's phone for each answer (ntfy.sh app, subscribed to this topic).
-  var NOTIFY_TOPIC = 'norazlyna-sat-0d9d0ade';
+  var NOTIFY_TOPIC = 'aqilah-fri-51270f68';
   function notify(text) {
     try { fetch('https://ntfy.sh/' + NOTIFY_TOPIC, { method: 'POST', body: text, keepalive: true }).catch(function () {}); } catch (e) {}
   }
 
-  var T = new Date('2026-11-14T16:00:00+08:00').getTime();
+  var T = new Date('2026-11-27T18:00:00+08:00').getTime();
   var $ = function (s) { return document.querySelector(s); };
   var G = window.gsap || null;
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -410,7 +369,6 @@
     document.body.classList.remove('locked');
     if (G && !reduce) {
       G.from('#page > *', { y: 28, opacity: 0, duration: .9, stagger: .1, ease: 'power3.out', clearProps: 'transform' });
-      G.from('#mascot', { y: 50, duration: 1, delay: .55, ease: 'back.out(1.6)' });
     }
     startGlow();
   }
@@ -512,30 +470,26 @@
     requestAnimationFrame(frame);
   }
 
-  /* ---------- countdown + P.S. ---------- */
-  var count = $('#count'), ps = $('#ps');
+  /* ---------- countdown ---------- */
+  var count = $('#count');
   function tick() {
     var d = T - Date.now(), txt;
     if (d > 36e5) {
-      var h = Math.floor(d / 36e5), m = Math.floor(d % 36e5 / 6e4), days = Math.floor(h / 24), hr = h % 24;
-      if (days >= 1) txt = 'That’s in ' + days + (days > 1 ? ' days' : ' day') + (hr ? ' and ' + hr + (hr === 1 ? ' hour' : ' hours') : '') + '.';
-      else txt = 'That’s in ' + h + 'h ' + (m < 10 ? '0' : '') + m + 'm.';
+      var h = Math.floor(d / 36e5), m = Math.floor(d % 36e5 / 6e4);
+      txt = 'Coffee’s around 6. That’s in ' + h + 'h ' + (m < 10 ? '0' : '') + m + 'm.';
     } else if (d > 6e4) {
-      var mm = Math.ceil(d / 6e4); txt = 'That’s in ' + mm + (mm > 1 ? ' minutes' : ' minute') + '.';
+      var mm = Math.ceil(d / 6e4); txt = 'Coffee’s around 6. That’s in ' + mm + (mm > 1 ? ' minutes' : ' minute') + '.';
     } else if (d > -7 * 36e5) {
       txt = 'That’s now.';
     } else {
-      txt = 'That was Saturday.';
+      txt = 'That was Friday.';
     }
     count.textContent = txt;
-    ps.textContent = (d < 40 * 6e4 && d > -15 * 6e4)
-      ? 'P.S. I’m already at the gate.'
-      : 'P.S. If you’re reading this at 3:55 on Saturday, I’m already at the gate.';
   }
   tick(); setInterval(tick, 15000);
 
-  /* ---------- the card tilt (desktop) + the bear ---------- */
-  var card = $('#card'), hint = $('#hint');
+  /* ---------- the card tilt (desktop) ---------- */
+  var card = $('#card');
   if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
     card.addEventListener('pointermove', function (e) {
       var r = card.getBoundingClientRect();
@@ -545,48 +499,14 @@
     });
     card.addEventListener('pointerleave', function () { card.style.transition = ''; card.style.transform = ''; });
   }
-  var mascot = $('#mascot'), bubble = $('#bubble');
-  var lines = ['You’re naming me on Saturday.', 'I’ve been told this is a two-person job.', 'He booked early. Make of that what you will.', 'Don’t be late. I’m not stuffed yet.'], li = 0, bt;
-  function idle() { if (G && !reduce) G.to(mascot, { rotation: 3, duration: 1.8, repeat: -1, yoyo: true, ease: 'sine.inOut', transformOrigin: '50% 100%' }); }
-  function bearTap() {
-    hint.classList.add('gone');
-    bubble.textContent = lines[li++ % lines.length];
-    bubble.classList.add('show');
-    clearTimeout(bt); bt = setTimeout(function () { bubble.classList.remove('show'); }, 2800);
-    if (G && !reduce) {
-      G.killTweensOf(mascot);
-      G.timeline({ onComplete: idle }).to(mascot, { y: -18, scaleY: 1.06, scaleX: .96, duration: .22, ease: 'power2.out' })
-        .to(mascot, { y: 0, scaleY: .95, scaleX: 1.05, duration: .22, ease: 'power2.in' })
-        .to(mascot, { scaleY: 1, scaleX: 1, rotation: 0, duration: .5, ease: 'elastic.out(1, .45)' });
-    }
-  }
-  var pol = $('#polaroid'), polUp = false;
-  if (pol) pol.addEventListener('click', function () {
-    polUp = !polUp;
-    if (G && !reduce) G.to(pol, { rotation: polUp ? -1 : 4, scale: polUp ? 1.08 : 1, duration: .6, ease: 'back.out(1.8)' });
-  });
-  mascot.addEventListener('click', bearTap);
-  mascot.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); bearTap(); } });
-  idle();
 
   /* ---------- answers ---------- */
-  var dinnerBtns = [].slice.call(document.querySelectorAll('#dinner .pick')), noted = $('#noted');
   var avoidBtns = [].slice.call(document.querySelectorAll('#avoid .pick')), spot = $('#spot');
-  var choice = store.get('nora.dinner') || '';
-  var avoid = (store.get('nora.avoid') || '').split('|').filter(Boolean);
+  var avoid = (store.get('aqilah.avoid') || '').split('|').filter(Boolean);
   function popIn(b) { if (G && !reduce) G.fromTo(b, { scale: .94 }, { scale: 1, duration: .5, ease: 'elastic.out(1, .45)' }); }
-  function setChoice(v, quiet) {
-    choice = v;
-    if (v && !quiet) notify('Norazlyna, dinner: ' + v);
-    dinnerBtns.forEach(function (b) { var on = b.textContent === v; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); if (on && !quiet) popIn(b); });
-    noted.textContent = !v ? '' : (v === 'Surprise me' ? 'Noted. I’ve got a place in mind.' : 'Noted. ' + v + ' it is.');
-    store.set('nora.dinner', v);
-    updateWa();
-  }
-  dinnerBtns.forEach(function (b) { b.addEventListener('click', function () { setChoice(b.textContent === choice ? '' : b.textContent); }); });
   function renderAvoid() {
     avoidBtns.forEach(function (b) { var on = avoid.indexOf(b.textContent) > -1; b.classList.toggle('on', on); b.setAttribute('aria-pressed', String(on)); });
-    store.set('nora.avoid', avoid.join('|'));
+    store.set('aqilah.avoid', avoid.join('|'));
     updateWa();
   }
   avoidBtns.forEach(function (b) {
@@ -594,25 +514,24 @@
       var v = b.textContent, i = avoid.indexOf(v);
       if (v === 'I eat everything') avoid = i > -1 ? [] : [v];
       else { avoid = avoid.filter(function (x) { return x !== 'I eat everything'; }); if (i > -1) avoid.splice(i, 1); else avoid.push(v); }
-      if (avoid.indexOf(v) > -1) { popIn(b); notify('Norazlyna, food: ' + avoid.join(', ')); }
+      if (avoid.indexOf(v) > -1) { popIn(b); notify('Aqilah, food: ' + avoid.join(', ')); }
       renderAvoid();
     });
   });
-  spot.value = store.get('nora.spot') || '';
+  spot.value = store.get('aqilah.spot') || '';
   var spotTimer;
-  spot.addEventListener('input', function () { store.set('nora.spot', spot.value); updateWa(); });
-  spot.addEventListener('change', function () { clearTimeout(spotTimer); if (spot.value.trim()) spotTimer = setTimeout(function () { notify('Norazlyna, pickup: ' + spot.value.trim()); }, 400); });
+  spot.addEventListener('input', function () { store.set('aqilah.spot', spot.value); updateWa(); });
+  spot.addEventListener('change', function () { clearTimeout(spotTimer); if (spot.value.trim()) spotTimer = setTimeout(function () { notify('Aqilah, pickup: ' + spot.value.trim()); }, 400); });
 
   /* ---------- the button ---------- */
-  var rsvp = $('#rsvp'), wa = $('#wa'), done = store.get('nora.rsvp') === '1';
+  var rsvp = $('#rsvp'), wa = $('#wa'), done = store.get('aqilah.rsvp') === '1';
   function summary(sep) {
     var parts = [];
-    if (choice) parts.push('Dinner: ' + choice);
     if (avoid.length) parts.push('Food: ' + avoid.join(', '));
     if (spot.value.trim()) parts.push('Pickup: ' + spot.value.trim());
     return parts.join(sep);
   }
-  function msg() { var s = summary('\n'); return 'I’ll be ready at 4 🧸' + (s ? '\n' + s : ''); }
+  function msg() { var s = summary('\n'); return 'I’m in.' + (s ? '\n' + s : ''); }
   function updateWa() {
     if (WA_NUMBER) { wa.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg()); wa.textContent = 'Tell me on WhatsApp'; }
     else { wa.href = '#'; wa.textContent = 'Send me a heads-up'; }
@@ -620,10 +539,10 @@
   function markDone(animate) {
     done = true;
     rsvp.classList.add('done'); rsvp.setAttribute('aria-pressed', 'true');
-    wa.hidden = false; store.set('nora.rsvp', '1');
+    wa.hidden = false; store.set('aqilah.rsvp', '1');
     if (animate) {
       var s = summary(' / ');
-      notify('Norazlyna: I’ll be ready at 4' + (s ? ' (' + s + ')' : ''));
+      notify('Aqilah: I’m in' + (s ? ' (' + s + ')' : ''));
       var r = rsvp.getBoundingClientRect();
       dust({ particleCount: 60, spread: 70, startVelocity: 20, origin: { x: (r.left + r.width / 2) / innerWidth, y: (r.top + r.height / 2) / innerHeight } });
     }
@@ -636,7 +555,6 @@
     if (navigator.share) { navigator.share({ text: text }).catch(function () {}); }
     else if (navigator.clipboard) { navigator.clipboard.writeText(text).then(function () { wa.textContent = 'Copied. Send it to me.'; }); }
   });
-  if (choice) setChoice(choice, true);
   renderAvoid();
   if (done) markDone(false);
 
